@@ -1,0 +1,11 @@
+﻿namespace Attributes
+{
+    using System;
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}
