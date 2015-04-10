@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML-Forms Tasks 1</title>
+</head>
+<body>
+	<form name="Information" method="get" action="apply-now.php">
+		<table border="1">
+			<colgroup>
+				<col width="180px"/>
+				<col width="280px"/>
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>
+						<label for="LN">Last Name:</label>
+					</th>
+					<td>
+						<input
+							type="text"
+							name="LN"
+							id="LN"
+							size="30"
+							autofocus="autofocus"
+							required="required"
+							pattern="[a-zA-Z0-9_]{2,}"
+							placeholder="Nakov"/>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="FN">First Name:</label>
+					</th>
+					<td>
+						<input
+							type="text"
+							name="FN"
+							id="FN"
+							size="30"
+							required="required"
+							pattern="[a-zA-Z0-9_]{2,}"
+							placeholder="Ivan"/>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="Address">Address:</label>
+					</th>
+					<td>
+						<textarea
+							name="Address"
+							id="Address"
+							rows="3"
+							cols="30"
+							required="required"
+							placeholder="57 Hristo Botev Str. floor 3, apt. 2"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="City">City:</label>
+					</th>
+					<th>
+						<input
+						type="text"
+						name="City"
+						id="City"
+						size="20"
+						required="required"
+						pattern="[a-zA-Z0-9_]{2,}"
+						placeholder="Kaspichan"/>
+						<label for="State">State:</label>
+						<input
+							type="text"
+							name="State"
+							id="State"
+							size="5"
+							pattern="[a-zA-Z0-9_]{2,}"
+							required="required"
+							placeholder="CA"/>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<label for="ZIP">ZIP/Postal Code:</label>
+					</th>
+					<td>
+						<input
+							type="text"
+							name="ZIP"
+							id="ZIP"
+							size="1"
+							required="required"
+							pattern="[0-9_]{4}"
+							placeholder="1000"/>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="Country">Country:</label>
+					</th>
+					<td>
+						<select name="Country" id="Country">
+							<option value="Bulgaria" selected="selected">Bulgaria</option>
+							<option value="Albania">Albania</option>
+							<option value="Germany">Germany</option>
+							<option value="Italy">Italy</option>
+							<option value="Spain">Spain</option>
+							<option value="Hungary">Hungary</option>
+							<option value="Mexico">Mexico</option>
+							<option value="USA">USA</option>
+							<option value="Macedonia">Macedonia</option>
+							<option value="Surbia">Surbia</option>
+							<option value="UK">UK</option>
+							<option value="Greece">Greece</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="Phone">Phone (country code, area code, number)</label>
+					</th>
+					<td>
+						(+
+						<input
+							type="tel"
+							name="Country code"
+							id="Phone"
+							size="1"
+							required="required"
+							pattern="[0-9_]{3}"
+							placeholder="359"/>
+						)
+						<input
+							type="tel"
+							name="Area code"
+							size="1"
+							required="required"
+							pattern="[0-9_]{2}"
+							placeholder="88"/>
+						-
+						<input
+							type="tel"
+							name="Number"
+							size="7"
+							required="required"
+							pattern="[0-9_]{7}"
+							placeholder="8123456"/>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="Email">Email:</label>
+					</th>
+					<td>
+						<input
+							type="email"
+							name="Email"
+							id="Email"
+							size="20"
+							required="required"
+							pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{2,}.[a-zA-Z0-9_]{2,5}"
+							placeholder="ivan@kaspichan.org"/>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						Birth date:
+					</th>
+					<td>
+						<label for="BirthMonth">Month</label>
+						<input
+							type="text"
+							name="BirthMonth"
+							id="BirthMonth"
+							size="1"
+							required="required"
+							pattern="[0-9_]{2}"
+							placeholder="06"/>
+						<label for="BirthDay">Day</label>
+						<input
+							type="text"
+							name="BirthDay"
+							id="BirthDay"
+							size="1"
+							required="required"
+							pattern="[0-9_]{2}"
+							placeholder="14"/>
+						<label for="BirthYear">Year (4 digit)</label>
+						<input
+							type="text"
+							name="BirthYear"
+							id="BirthYear"
+							size="2"
+							required="required"
+							pattern="[0-9_]{4}"
+							placeholder="1980"/>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="Gender">Gender:</label>
+					</th>
+					<td>
+						<select name="Gender" id="Gender">
+							<option value="Male" selected="selected">Male</option>
+							<option value="Female">Female</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						Starting date:
+					</th>
+					<td>
+						<input
+							name="Start date"
+							type="radio"
+							id="Spring"
+							value="Spring"/>
+						<label for="Spring">Spring 2006</label>
+						<input
+							name="Start date"
+							type="radio"
+							id="Summer"
+							value="Summer"/>
+						<label for="Summer">Summer 2006</label>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="Comments">Comments/Questions:</label>
+					</th>
+					<td>
+						<textarea
+							name="Comments"
+							id="Comments"
+							rows="4"
+							cols="30"
+							placeholder="Please, send me more information about you. Thank you!"></textarea>
+					</td>
+				</tr>
+			</tbody>	
+			<tfoot>
+				<tr>
+					<td colspan="2">
+						<input type="submit" name="Submit" value="Submit"/>
+						<input type="reset" value="Clear this form"/>
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+	</form>
+</body>
+</html>

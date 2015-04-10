@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML-Tables Task 2</title>
+</head>
+<body>
+	<form name="Myform" method="get">
+		<label for="FirstName">First name:</label>
+		<input
+			type="text"
+			name="FirstName"
+			required="required"
+			placeholder="first name"
+			pattern="[a-zA-Z0-9_]{3,}"
+			id="FirstName"/> *req
+		<br/>
+		<label for="LastName">Last name:</label>
+		<input
+			type="text"
+			name="LastName"
+			required="required"
+			placeholder="last name"
+			pattern="[a-zA-Z0-9_]{3,}"
+			id="LastName"/> *req
+		<br/>
+		<label for="pass">Password:</label>
+		<input
+			type="password"
+			name="Password"
+			required="required"
+			placeholder="*****"
+			pattern="[a-zA-Z0-9_]{3,}"
+			id="pass"/> *req
+		<br/>
+		<label for="Email">Email:</label>
+		<input
+			type="email"
+			name="Emalil"
+			required="required"
+			placeholder="sample@abv.bg"
+			pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"
+			id="Email"/> *req
+		<br/>
+		<input type="submit" value="submit"/>
+	</form>
+</body>
+</html>
