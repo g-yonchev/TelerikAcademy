@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Semantic-Web Task 3</title>
+</head>
+<body  style="background-color:khaki">
+	<header>
+		<h1>Linked<img src="http://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="23" alt="in"/></h1>
+		<nav>
+			<ul>
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">What is LinkedIn?</a>
+				</li>
+				<li>
+					<a href="#">Join Today</a>
+				</li>
+			</ul>
+		</nav>
+		<article>
+			<form name="SignIn" method="get" action="https://www.linkedin.com/">
+				<fieldset>
+					<legend>Sign In</legend>
+						<ul>
+							<li>
+								<label for="EmailSignIn">Email:</label>
+								<input type="email" id="EmailSignIn" name="Email" autofocus="autofocus"/>
+							</li>
+							<li>
+								<label for="PasswordSignIn">Password:</label>
+								<input type="password" id="PasswordSignIn" name="Password"/>
+							</li>
+						</ul>
+							<input type="image" src="https://static.licdn.com/scds/common/u/img/logos/logo_132x32_2.png" width="70" alt="LinkedIn"/>
+				</fieldset>
+			</form>
+		</article>
+	</header>
+		<hr/>
+	<section>
+		<article>
+			<h1>Over 175 million professionals use <strong>LinkedIn</strong> to exchange information, ideas and opportunities</h1>
+			<ul>
+				<li>Stay informed about your <em>contacts</em> and <em>industry</em></li>
+				<li>Find the <em>people</em> & <em>knowledge</em> you need to achieve your goals</li>
+				<li>Control your <em>professional identity</em> online</li>
+			</ul>
+		</article>
+		<article>
+			<h3>Join LinkedIn Today</h3>
+			<form name="SignIn" method="get" action="apply-now.php">
+				<fieldset>
+					<legend>Sign Up</legend>
+						<ul>
+							<li>
+								<label for="FirstNameSignUp">First name:</label>
+								<br/>
+								<input type="text" id="FirstNameSignUp" name="FirstName" required="required"/>
+							</li>
+							<li>
+								<label for="LastNameSignUp">Last name:</label>
+								<br/>
+								<input type="text" id="LastNameSignUp" name="LastName" required="required"/>
+							</li>
+							<li>
+								<label for="emailSignUp">Email:</label>
+								<br/>
+								<input type="email" id="emailSignUp" name="Email" required="required"/>
+							</li>
+							<li>
+								<label for="PasswordSignUp">Password:</label>
+								<br/>
+								<input type="password" id="PasswordSignUp" name="Pasword" required="required" pattern="[a-zA-Z0-9_]{6,}"/> * 6 or more characters
+							</li>
+						</ul>
+						<input type="submit" value="Join Now"/>
+						<br/>
+						Already on LinkedIn? <a href="#">Sign in</a>
+				</fieldset>
+			</form>
+		</article>
+	</section>
+		<hr/>
+	<footer>
+		<article>
+			<h4>Search for someone by name:</h4>
+				<form name="SearchFriend" method="get" action="apply-now.php">
+					<fieldset>
+						<ul>
+							<li>
+								<label for="FirstNameSearch">First Name:</label>
+								<input type="text" id="FirstNameSearch" name="FirstName"/>
+							</li>
+							<li>
+								<label for="LastNameSearch">Last Name:</label>
+								<input type="text" id="LastNameSearch" name="LastName"/>
+							</li>
+						</ul>
+						<input type="submit" value="Go"/>
+					</fieldset>
+				</form>
+		</article>
+	</footer>
+</body>
+</html>
