@@ -1,0 +1,13 @@
+1. Visual Studio - includes a code editor supporting IntelliSense as well as code refactoring. The integrated debugger works both as a source-level debugger and a machine-level debugger.
+
+02. Eclipse - contains a base workspace and an extensible plug-in system for customizing the environment. Written mostly in Java, Eclipse can be used to develop applications.
+
+03. Aptana -  for building web applications. Based on Eclipse, it supports JavaScript, HTML, DOM and CSS with code-completion, outlining, JavaScript debugging, error and warning notifications and integrated documentation. Additional plugins allow Aptana Studio to support Ruby on Rails, PHP, Python, Perl, Adobe AIR, Apple iPhone and Nokia WRT (Web Runtime).
+
+04. WebStorm - for JavaScript, CSS & HTML built on JetBrains' IntelliJ IDEA platform. WebStorm is a specialized version of PhpStorm, offering a subset of its features.
+
+05. Notepad++ - is a text editor and source code editor for use with Microsoft Windows.
+
+06. MonoDevelop - for Linux, OS X, and Windows. Its primary focus is development of projects that use Mono and .NET frameworks.
+
+07. Delphi - for console, desktop graphical, web, and mobile applications.

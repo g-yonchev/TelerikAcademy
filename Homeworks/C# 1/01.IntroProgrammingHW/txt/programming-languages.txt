@@ -1,0 +1,21 @@
+List of most popular programming languages:
+- C#
+- Python
+- Java
+- C
+- PHP
+- C++
+- JavaScript
+- Ruby
+- Objective-C
+- and many more.
+
+Many of the most widely used programming languages are multi-paradigm programming languages that support object-oriented programming to a greater or lesser degree, typically in combination with imperative, procedural programming. Significant object-oriented languages include C++, Objective-C, Smalltalk, Delphi, Java, C#, Perl, Python, Ruby and PHP.
+
+C# (generic, imperative, object-oriented (class-based), functional, declarative)
+C++ (generic, imperative, object-oriented (class-based), functional)
+Delphi (generic, imperative, object-oriented (class-based), metaprogramming)
+Objective-C (imperative, object-oriented (class-based), reflective)
+PHP (imperative, object-oriented)
+Python (functional, object-oriented (class-based), imperative, metaprogramming)
+Ruby (imperative, functional, object-oriented (class-based))
