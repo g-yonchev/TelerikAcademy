@@ -1,0 +1,80 @@
+User ivan with Id: 2 successfully registered
+User pepi with Id: 3 successfully registered
+User jivka with Id: 4 successfully registered
+User ivan successfully logged in
+No questions
+Question with Id: 1 successfully posted
+Logout success
+User pepi successfully logged in
+Question with Id: 2 successfully posted
+[ Question ID: 1 ]
+Posted by: ivan
+Question Title: SoftUni
+Question Body: may_I_join
+====================
+No answers
+Answer with Id: 1 successfully posted
+Logout success
+User jivka successfully logged in
+[ Question ID: 1 ]
+Posted by: ivan
+Question Title: SoftUni
+Question Body: may_I_join
+====================
+Answers:
+[ Answer ID: 1 ]
+Posted by: pepi
+Answer Body: unito_e_super
+--------------------
+Answer with Id: 2 successfully posted
+[ Question ID: 2 ]
+Posted by: pepi
+Question Title: triadica
+Question Body: tarsia_sakvartirant
+====================
+No answers
+Answer with Id: 3 successfully posted
+Logout success
+User pepi successfully logged in
+[ Question ID: 2 ]
+Posted by: pepi
+Question Title: triadica
+Question Body: tarsia_sakvartirant
+====================
+Answers:
+[ Answer ID: 3 ]
+Posted by: jivka
+Answer Body: saglasna_sam
+--------------------
+Answer with Id: 4 successfully posted
+Answer with Id: 3 successfully made best answer
+[ Question ID: 1 ]
+Posted by: ivan
+Question Title: SoftUni
+Question Body: may_I_join
+====================
+Answers:
+[ Answer ID: 1 ]
+Posted by: pepi
+Answer Body: unito_e_super
+--------------------
+[ Answer ID: 2 ]
+Posted by: jivka
+Answer Body: taka_si_e
+--------------------
+[ Question ID: 2 ]
+Posted by: pepi
+Question Title: triadica
+Question Body: tarsia_sakvartirant
+====================
+Answers:
+********************
+[ Answer ID: 3 ]
+Posted by: jivka
+Answer Body: saglasna_sam
+--------------------
+********************
+[ Answer ID: 4 ]
+Posted by: pepi
+Answer Body: vzimam_te
+--------------------

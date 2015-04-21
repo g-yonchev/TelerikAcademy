@@ -1,0 +1,9 @@
+create Farm ludakrava
+add Cow ludata
+exploit animal ludata
+exploit animal ludata
+status animal ludata
+feed ludata ludataProduct 4
+status animal ludata
+status product ludataProduct
+END

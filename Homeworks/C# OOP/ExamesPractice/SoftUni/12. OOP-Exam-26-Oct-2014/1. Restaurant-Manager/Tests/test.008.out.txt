@@ -1,0 +1,12 @@
+Recipe Fish and chips created
+Recipe Garlic Bread created
+Recipe Guacamole created
+Recipe Broccoli Salad created
+Recipe Asian Salad created
+Recipe Strawberry Cheesecake created
+Recipe Coca-Cola created
+Recipe Black Chocolate Cake created
+Command ToggleVegan executed successfully. New value: true
+Command ToggleVegan executed successfully. New value: false
+Command ToggleVegan executed successfully. New value: true
+Command ToggleSugar executed successfully. New value: false

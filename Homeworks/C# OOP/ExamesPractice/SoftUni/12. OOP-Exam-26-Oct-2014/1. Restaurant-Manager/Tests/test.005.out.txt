@@ -1,0 +1,9 @@
+Restaurant New Restaurant created
+Recipe Fish and chips created
+Recipe Fish and chips successfully added to restaurant New Restaurant
+***** New Restaurant - Sofia *****
+~~~~~ MAIN COURSES ~~~~~
+==  Fish and chips == $8.34
+Per serving: 320 g, 420 kcal
+Ready in 15 minutes
+Type: Meat

@@ -1,0 +1,12 @@
+insert venue opera LaScala Milan 800
+insert performance theatre MuchAdoAboutNothing 10.00 LaScala 5.11.2014 18:30:00
+supply_tickets regular LaScala MuchAdoAboutNothing 2
+supply_tickets student LaScala MuchAdoAboutNothing 2
+sell_ticket MuchAdoAboutNothing regular
+sell_ticket MuchAdoAboutNothing student
+sell_ticket MuchAdoAboutNothing regular
+sell_ticket MuchAdoAboutNothing student
+sell_ticket MuchAdoAboutNothing regular
+sell_ticket MuchAdoAboutNothing student
+report MuchAdoAboutNothing
+end

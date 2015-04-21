@@ -1,0 +1,26 @@
+insert venue cinema Arena Sofia 200
+insert performance movie Dracula 12.00 Arena 12.10.2014 20:00:00
+supply_tickets regular Arena Dracula 5
+sell_ticket Dracula regular
+sell_ticket Dracula regular
+sell_ticket Dracula student
+sell_ticket Dracula regular
+supply_tickets student Arena Dracula 5
+sell_ticket Dracula student
+sell_ticket Dracula vip
+insert venue opera LaScala Milan 800
+insert venue sports_hall ArenaArmenets Sofia 210
+insert venue concert_hall Metropolitan NewYork 400
+insert performance concert TarjaTurunen 55.00 Metropolitan 10.11.2014 20:00:00
+supply_tickets regular Metropolitan TarjaTurunen 100
+supply_tickets student Metropolitan TarjaTurunen 50
+sell_ticket TarjaTurunen vip
+sell_ticket TarjaTurunen vip
+supply_tickets vip Metropolitan TarjaTurunen 50
+sell_ticket TarjaTurunen regular
+sell_ticket TarjaTurunen student
+sell_ticket TarjaTurunen vip
+report Dracula
+report TarjaTurunen
+find a 1.01.2014 00:00:00
+end

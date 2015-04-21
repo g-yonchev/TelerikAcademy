@@ -1,0 +1,29 @@
+===== MuchAdoAboutNothing =====
+At LaScala (Milan)
+On 05/11/2014 18:30:00
+Seat: 1
+Price: $10.00
+===============
+===== MuchAdoAboutNothing =====
+At LaScala (Milan)
+On 05/11/2014 18:30:00
+Seat: 3
+Price: $8.00
+===============
+===== MuchAdoAboutNothing =====
+At LaScala (Milan)
+On 05/11/2014 18:30:00
+Seat: 2
+Price: $10.00
+===============
+===== MuchAdoAboutNothing =====
+At LaScala (Milan)
+On 05/11/2014 18:30:00
+Seat: 4
+Price: $8.00
+===============
+There is no unsold ticket of the specified type.
+There is no unsold ticket of the specified type.
+MuchAdoAboutNothing: 4 ticket(s), total: $36.00
+Venue: LaScala (Milan)
+Start time: 05/11/2014 18:30:00

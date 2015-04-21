@@ -1,0 +1,110 @@
+Restaurant New Restaurant created
+Restaurant SoftUni Restaurant created
+***** New Restaurant - Sofia *****
+No recipes... yet
+Recipe Grilled Chicken created
+Recipe Spaghetti Carbonara created
+Recipe Mexican Bean Salad created
+Recipe Black Magic Cake created
+Recipe Home-made Lemonade created
+***** SoftUni Restaurant - Silicon Valley *****
+No recipes... yet
+Recipe Black Magic Cake successfully added to restaurant SoftUni Restaurant
+Recipe Grilled Chicken successfully added to restaurant SoftUni Restaurant
+Recipe Mexican Bean Salad successfully added to restaurant SoftUni Restaurant
+Recipe Home-made Lemonade successfully added to restaurant SoftUni Restaurant
+Recipe Spaghetti Carbonara successfully added to restaurant SoftUni Restaurant
+***** SoftUni Restaurant - Silicon Valley *****
+~~~~~ DRINKS ~~~~~
+==  Home-made Lemonade == $2.41
+Per serving: 200 ml, 10 kcal
+Ready in 5 minutes
+Carbonated: no
+~~~~~ SALADS ~~~~~
+[VEGAN] ==  Mexican Bean Salad == $7.99
+Per serving: 300 g, 150 kcal
+Ready in 14 minutes
+Contains pasta: no
+~~~~~ MAIN COURSES ~~~~~
+==  Grilled Chicken == $5.88
+Per serving: 370 g, 320 kcal
+Ready in 15 minutes
+Type: Meat
+==  Spaghetti Carbonara == $7.39
+Per serving: 450 g, 455 kcal
+Ready in 25 minutes
+Type: Pasta
+~~~~~ DESSERTS ~~~~~
+==  Black Magic Cake == $1.50
+Per serving: 150 g, 450 kcal
+Ready in 2 minutes
+Recipe Spaghetti Carbonara successfully added to restaurant New Restaurant
+***** New Restaurant - Sofia *****
+~~~~~ MAIN COURSES ~~~~~
+==  Spaghetti Carbonara == $7.39
+Per serving: 450 g, 455 kcal
+Ready in 25 minutes
+Type: Pasta
+Recipe Spaghetti Carbonara successfully removed from restaurant New Restaurant
+***** New Restaurant - Sofia *****
+No recipes... yet
+Recipe Spaghetti Carbonara successfully removed from restaurant SoftUni Restaurant
+Recipe Grilled Chicken successfully removed from restaurant SoftUni Restaurant
+***** SoftUni Restaurant - Silicon Valley *****
+~~~~~ DRINKS ~~~~~
+==  Home-made Lemonade == $2.41
+Per serving: 200 ml, 10 kcal
+Ready in 5 minutes
+Carbonated: no
+~~~~~ SALADS ~~~~~
+[VEGAN] ==  Mexican Bean Salad == $7.99
+Per serving: 300 g, 150 kcal
+Ready in 14 minutes
+Contains pasta: no
+~~~~~ DESSERTS ~~~~~
+==  Black Magic Cake == $1.50
+Per serving: 150 g, 450 kcal
+Ready in 2 minutes
+Recipe Vegan Red Lentil Soup created
+Recipe Vegan Red Lentil Soup successfully added to restaurant New Restaurant
+***** New Restaurant - Sofia *****
+~~~~~ MAIN COURSES ~~~~~
+[VEGAN] ==  Vegan Red Lentil Soup == $5.99
+Per serving: 250 g, 150 kcal
+Ready in 15 minutes
+Type: Soup
+Command ToggleVegan executed successfully. New value: false
+***** New Restaurant - Sofia *****
+~~~~~ MAIN COURSES ~~~~~
+==  Vegan Red Lentil Soup == $5.99
+Per serving: 250 g, 150 kcal
+Ready in 15 minutes
+Type: Soup
+Recipe Black Chocolate Cake created
+Recipe Black Chocolate Cake successfully added to restaurant New Restaurant
+***** New Restaurant - Sofia *****
+~~~~~ MAIN COURSES ~~~~~
+==  Vegan Red Lentil Soup == $5.99
+Per serving: 250 g, 150 kcal
+Ready in 15 minutes
+Type: Soup
+~~~~~ DESSERTS ~~~~~
+[VEGAN] ==  Black Chocolate Cake == $2.32
+Per serving: 120 g, 300 kcal
+Ready in 6 minutes
+Command ToggleSugar executed successfully. New value: false
+***** New Restaurant - Sofia *****
+~~~~~ MAIN COURSES ~~~~~
+==  Vegan Red Lentil Soup == $5.99
+Per serving: 250 g, 150 kcal
+Ready in 15 minutes
+Type: Soup
+~~~~~ DESSERTS ~~~~~
+[NO SUGAR] [VEGAN] ==  Black Chocolate Cake == $2.32
+Per serving: 120 g, 300 kcal
+Ready in 6 minutes
+The restaurant No Such Restaurant does not exist
+The restaurant No Such Recipe does not exist
+The recipe No Such Recipe does not exist
+The command ToggleSugar is not applicable to recipe Grilled Chicken
+The command ToggleVegan is not applicable to recipe Home-made Lemonade

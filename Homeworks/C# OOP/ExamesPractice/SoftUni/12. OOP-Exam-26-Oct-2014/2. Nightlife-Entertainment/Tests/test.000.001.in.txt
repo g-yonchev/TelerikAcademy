@@ -1,0 +1,29 @@
+insert venue cinema Arena Sofia-Mladost 200
+insert performance movie Dracula 12.00 Arena 12.10.2014 20:00:00
+supply_tickets regular Arena Dracula 50
+sell_ticket Dracula regular
+sell_ticket Dracula regular
+sell_ticket Dracula regular
+sell_ticket Dracula regular
+insert venue opera LaScala Milan 800
+insert venue sports_hall ArenaArmenets Sofia 210
+insert venue concert_hall Metropolitan NewYork 400
+insert performance theatre MuchAdoAboutNothing 10.00 Metropolitan 5.11.2014 18:30:00
+insert performance concert TarjaTurunen 55.00 Metropolitan 10.11.2014 20:00:00
+supply_tickets regular Metropolitan TarjaTurunen 100
+supply_tickets student Metropolitan TarjaTurunen 50
+supply_tickets vip Metropolitan TarjaTurunen 50
+sell_ticket TarjaTurunen regular
+sell_ticket TarjaTurunen student
+sell_ticket TarjaTurunen vip
+report Dracula
+report MuchAdoAboutNothing
+report TarjaTurunen
+insert venue concert_hall ConcertHallNDK Sofia 150
+insert performance concert RadoShisharkataConcert 25.55 Metropolitan 8.12.2014 18:30:00
+insert performance concert SlaviTrifonovConcert 12.00 ConcertHallNDK 7.12.2014 19:00:00
+insert performance concert TarjaTurunen 55.00 ConcertHallNDK 10.12.2014 20:00:00
+insert venue concert_hall OtherConcertHall Sydney 300
+find conCERt 1.08.2014 14:30:00
+find conCErt 1.08.2015 22:30:00
+end

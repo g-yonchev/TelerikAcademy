@@ -1,0 +1,5 @@
+CreateRestaurant(name=New Restaurant;location=Sofia)
+CreateMainCourse(price=8.34;type=Meat;calories=420;quantity=320;time=15;vegan=no;name=Fish and chips)
+AddRecipeToRestaurant(recipe=Fish and chips;restaurant=SoftUni Restaurant)
+PrintRestaurantMenu(name=New Restaurant)
+End

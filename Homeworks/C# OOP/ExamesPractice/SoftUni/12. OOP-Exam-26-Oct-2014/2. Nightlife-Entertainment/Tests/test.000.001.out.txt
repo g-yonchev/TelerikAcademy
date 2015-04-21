@@ -1,0 +1,66 @@
+===== Dracula =====
+At Arena (Sofia-Mladost)
+On 12/10/2014 20:00:00
+Seat: 1
+Price: $12.00
+===============
+===== Dracula =====
+At Arena (Sofia-Mladost)
+On 12/10/2014 20:00:00
+Seat: 2
+Price: $12.00
+===============
+===== Dracula =====
+At Arena (Sofia-Mladost)
+On 12/10/2014 20:00:00
+Seat: 3
+Price: $12.00
+===============
+===== Dracula =====
+At Arena (Sofia-Mladost)
+On 12/10/2014 20:00:00
+Seat: 4
+Price: $12.00
+===============
+===== TarjaTurunen =====
+At Metropolitan (NewYork)
+On 10/11/2014 20:00:00
+Seat: 1
+Price: $55.00
+===============
+===== TarjaTurunen =====
+At Metropolitan (NewYork)
+On 10/11/2014 20:00:00
+Seat: 101
+Price: $44.00
+===============
+===== TarjaTurunen =====
+At Metropolitan (NewYork)
+On 10/11/2014 20:00:00
+Seat: 151
+Price: $82.50
+===============
+Dracula: 4 ticket(s), total: $48.00
+Venue: Arena (Sofia-Mladost)
+Start time: 12/10/2014 20:00:00
+MuchAdoAboutNothing: 0 ticket(s), total: $0.00
+Venue: Metropolitan (NewYork)
+Start time: 05/11/2014 18:30:00
+TarjaTurunen: 3 ticket(s), total: $181.50
+Venue: Metropolitan (NewYork)
+Start time: 10/11/2014 20:00:00
+Search for "conCERt"
+Performances:
+-SlaviTrifonovConcert
+-RadoShisharkataConcert
+Venues:
+-ConcertHallNDK
+--SlaviTrifonovConcert
+--TarjaTurunen
+-OtherConcertHall
+Search for "conCErt"
+Performances:
+no results
+Venues:
+-ConcertHallNDK
+-OtherConcertHall

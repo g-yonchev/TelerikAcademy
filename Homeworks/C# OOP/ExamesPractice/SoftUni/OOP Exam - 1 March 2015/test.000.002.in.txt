@@ -1,0 +1,19 @@
+register gosho 123 gg@gmail.com
+login gosho 123
+PostQuestion oop_exam egati_izpita
+logout
+register pepi 123 abv.bg
+register pepi 123 pepi@abv.bg
+login pepi 000
+login pepi 123
+OpenQuestion 9
+OpenQuestion 1
+PostAnswer koi_e_kazal_che_e_lesen
+PostAnswer pak_se_vkliuchvam
+logout
+login gosho 123
+OpenQuestion 1
+PostAnswer haide_i_az_otgorariam
+MakeBestAnswer 3
+ShowQuestions
+exit

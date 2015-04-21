@@ -1,0 +1,15 @@
+create Farm fermi
+add Swine Korchan
+add CherryTree StarataCheresha
+add Swine Ginka
+exploit animal Ginka
+status animal Ginka
+exploit plant StarataCheresha
+exploit plant StarataCheresha
+status plant StarataCheresha
+status product GinkaProduct 
+status animal Korchan
+feed Korchan GinkaProduct 1
+status animal Korchan
+status plant StarataCheresha
+END

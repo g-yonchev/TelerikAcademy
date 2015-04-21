@@ -1,0 +1,23 @@
+===== TarjaTurunen =====
+At ConcertHall (Milan)
+On 12/10/2014 20:30:00
+Seat: 1
+Price: $19.20
+===============
+===== TarjaTurunen =====
+At ConcertHall (Milan)
+On 12/10/2014 20:30:00
+Seat: 2
+Price: $19.20
+===============
+There is no unsold ticket of the specified type.
+===== TarjaTurunen =====
+At ConcertHall (Milan)
+On 12/10/2014 20:30:00
+Seat: 3
+Price: $19.20
+===============
+TarjaTurunen: 3 ticket(s), total: $57.60
+Venue: ConcertHall (Milan)
+Start time: 12/10/2014 20:30:00
+String was not recognized as a valid DateTime.

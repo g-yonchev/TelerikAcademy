@@ -1,0 +1,11 @@
+insert venue opera LaScala Milan 800
+insert venue concert_hall Metropolitan NewYork 400
+insert performance concert TarjaTurunen 20.00 LaScala 12.10.2014 20:00:00
+supply_tickets student LaScala TarjaTurunen 2
+find lA 12.10.2014 21:00:00
+find lA 12.10.2014 16:00:00
+sell_ticket TarjaTurunen student
+sell_ticket TarjaTurunen regular
+sell_ticket TarjaTurunen vip
+report TarjaTurunen
+end

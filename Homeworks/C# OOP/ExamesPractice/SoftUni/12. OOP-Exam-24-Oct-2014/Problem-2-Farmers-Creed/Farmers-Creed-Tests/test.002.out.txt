@@ -1,0 +1,3 @@
+--Cow ludata, Health: 8
+--Cow ludata, Health: 23
+--Food ludataProduct, Quantity: 8, Product Type: Milk, Food Type: Organic, Health Effect: 4

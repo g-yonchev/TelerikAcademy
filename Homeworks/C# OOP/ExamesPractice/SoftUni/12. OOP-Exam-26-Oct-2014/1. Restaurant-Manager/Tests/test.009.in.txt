@@ -1,0 +1,8 @@
+CreateRestaurant(name=New Restaurant;location=Sofia)
+CreateDessert(name=Black Chocolate Cake;quantity=120;price=2.32;vegan=no;time=6;calories=300)
+AddRecipeToRestaurant(recipe=Black Chocolate Cake;restaurant=New Restaurant)
+PrintRestaurantMenu(name=New Restaurant)
+ToggleSugar(name=Black Chocolate Cake)
+ToggleVegan(name=Black Chocolate Cake)
+PrintRestaurantMenu(name=New Restaurant)
+End

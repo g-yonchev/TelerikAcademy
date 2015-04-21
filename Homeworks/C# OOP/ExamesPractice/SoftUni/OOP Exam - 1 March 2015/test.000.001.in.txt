@@ -1,0 +1,26 @@
+ShowQuestions
+register pesho 123 12@12.com
+login pesho 123
+PostQuestion WTF! textExplain
+ShowQuestions
+logout
+register pepi 123 12@.gmail.com
+logout
+register gosho 123 123@.gmail.com
+login pepi 123
+PostQuestion NaPepiVaprosa Sloechainost
+OpenQuestion 1
+PostAnswer NemashGriji
+logout
+login gosho 123
+OpenQuestion 1
+PostAnswer OtgovoraNaGosho
+OpenQuestion 2
+PostAnswer NovOtgovorNaGosho
+ShowQuestions
+logout
+login pepi 123
+OpenQuestion 2
+MakeBestAnswer 2
+OpenQuestion 2
+exit

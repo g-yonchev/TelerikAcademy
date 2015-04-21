@@ -1,0 +1,227 @@
+The music shop My Music Shop does not exist
+Music shop My Music Shop created
+===== My Music Shop =====
+The shop is empty. Come back soon.
+Microphone JTS TM989 created
+Article JTS TM989 successfully added to music shop My Music Shop
+===== My Music Shop =====
+----- Microphones -----
+= JTS TM989 =
+Price: $20.00
+Cable: yes
+Drums Legion DP-101 created
+Article Legion DP-101 successfully added to music shop My Music Shop
+Electric guitar DEAN V Chicago Flame created
+Article DEAN V Chicago Flame successfully added to music shop My Music Shop
+Acoustic guitar Aria AD-20 created
+Article Aria AD-20 successfully added to music shop My Music Shop
+The article DEAN V Chicago Flame already exists
+The article DEAN V Chicago Flame already exists in shop My Music Shop
+===== My Music Shop =====
+----- Microphones -----
+= JTS TM989 =
+Price: $20.00
+Cable: yes
+----- Drums -----
+= Legion DP-101 =
+Price: $569.99
+Color: black
+Electronic: no
+Size: 56cm x 40cm
+----- Electric guitars -----
+= DEAN V Chicago Flame =
+Price: $1159.99
+Color: Classic Black
+Electronic: yes
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Ebony
+Adapters: 2
+Frets: 22
+----- Acoustic guitars -----
+= Aria AD-20 =
+Price: $320.00
+Color: Natural
+Electronic: no
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Mahogany
+Case included: no
+String material: Steel
+Music shop Other Shop created
+Article DEAN V Chicago Flame successfully added to music shop Other Shop
+Bass guitar Dean Hillsboro 09 PJ created
+Article Dean Hillsboro 09 PJ successfully added to music shop My Music Shop
+===== My Music Shop =====
+----- Microphones -----
+= JTS TM989 =
+Price: $20.00
+Cable: yes
+----- Drums -----
+= Legion DP-101 =
+Price: $569.99
+Color: black
+Electronic: no
+Size: 56cm x 40cm
+----- Electric guitars -----
+= DEAN V Chicago Flame =
+Price: $1159.99
+Color: Classic Black
+Electronic: yes
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Ebony
+Adapters: 2
+Frets: 22
+----- Acoustic guitars -----
+= Aria AD-20 =
+Price: $320.00
+Color: Natural
+Electronic: no
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Mahogany
+Case included: no
+String material: Steel
+----- Bass guitars -----
+= Dean Hillsboro 09 PJ =
+Price: $380.99
+Color: Classic Black
+Electronic: yes
+Strings: 4
+Body wood: Basswood
+Fingerboard wood: Maple
+===== Other Shop =====
+----- Electric guitars -----
+= DEAN V Chicago Flame =
+Price: $1159.99
+Color: Classic Black
+Electronic: yes
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Ebony
+Adapters: 2
+Frets: 22
+The article Does Not Exist does not exist
+Electric guitar Rogue Rocketeer Deluxe created
+Electric guitar Apollo DDF-1340TV / VSB created
+Microphone JTS IN264/IN264TH created
+Article JTS IN264/IN264TH successfully added to music shop My Music Shop
+Article Rogue Rocketeer Deluxe successfully added to music shop My Music Shop
+Article Apollo DDF-1340TV / VSB successfully added to music shop My Music Shop
+===== My Music Shop =====
+----- Microphones -----
+= JTS IN264/IN264TH =
+Price: $1136.00
+Cable: no
+= JTS TM989 =
+Price: $20.00
+Cable: yes
+----- Drums -----
+= Legion DP-101 =
+Price: $569.99
+Color: black
+Electronic: no
+Size: 56cm x 40cm
+----- Electric guitars -----
+= Apollo DDF-1340TV / VSB =
+Price: $1159.99
+Color: Sunburst
+Electronic: yes
+Strings: 6
+Body wood: Basswood
+Fingerboard wood: Maple
+Adapters: 3
+Frets: 22
+= DEAN V Chicago Flame =
+Price: $1159.99
+Color: Classic Black
+Electronic: yes
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Ebony
+Adapters: 2
+Frets: 22
+= Rogue Rocketeer Deluxe =
+Price: $473.45
+Color: Brown / White
+Electronic: yes
+Strings: 6
+Body wood: Basswood
+Fingerboard wood: Rosewood
+Adapters: 2
+Frets: 22
+----- Acoustic guitars -----
+= Aria AD-20 =
+Price: $320.00
+Color: Natural
+Electronic: no
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Mahogany
+Case included: no
+String material: Steel
+----- Bass guitars -----
+= Dean Hillsboro 09 PJ =
+Price: $380.99
+Color: Classic Black
+Electronic: yes
+Strings: 4
+Body wood: Basswood
+Fingerboard wood: Maple
+Article JTS IN264/IN264TH successfully removed from music shop My Music Shop
+Article JTS TM989 successfully removed from music shop My Music Shop
+===== My Music Shop =====
+----- Drums -----
+= Legion DP-101 =
+Price: $569.99
+Color: black
+Electronic: no
+Size: 56cm x 40cm
+----- Electric guitars -----
+= Apollo DDF-1340TV / VSB =
+Price: $1159.99
+Color: Sunburst
+Electronic: yes
+Strings: 6
+Body wood: Basswood
+Fingerboard wood: Maple
+Adapters: 3
+Frets: 22
+= DEAN V Chicago Flame =
+Price: $1159.99
+Color: Classic Black
+Electronic: yes
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Ebony
+Adapters: 2
+Frets: 22
+= Rogue Rocketeer Deluxe =
+Price: $473.45
+Color: Brown / White
+Electronic: yes
+Strings: 6
+Body wood: Basswood
+Fingerboard wood: Rosewood
+Adapters: 2
+Frets: 22
+----- Acoustic guitars -----
+= Aria AD-20 =
+Price: $320.00
+Color: Natural
+Electronic: no
+Strings: 6
+Body wood: Mahogany
+Fingerboard wood: Mahogany
+Case included: no
+String material: Steel
+----- Bass guitars -----
+= Dean Hillsboro 09 PJ =
+Price: $380.99
+Color: Classic Black
+Electronic: yes
+Strings: 4
+Body wood: Basswood
+Fingerboard wood: Maple
+The article JTS TM989 does not exist in shop My Music Shop

@@ -1,0 +1,22 @@
+Search for "lA"
+Performances:
+no results
+Venues:
+-LaScala
+Search for "lA"
+Performances:
+no results
+Venues:
+-LaScala
+--TarjaTurunen
+===== TarjaTurunen =====
+At LaScala (Milan)
+On 12/10/2014 20:00:00
+Seat: 1
+Price: $16.00
+===============
+There is no unsold ticket of the specified type.
+There is no unsold ticket of the specified type.
+TarjaTurunen: 1 ticket(s), total: $16.00
+Venue: LaScala (Milan)
+Start time: 12/10/2014 20:00:00

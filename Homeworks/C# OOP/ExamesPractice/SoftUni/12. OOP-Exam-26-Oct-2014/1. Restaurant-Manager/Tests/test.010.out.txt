@@ -1,0 +1,62 @@
+Restaurant New Restaurant created
+Recipe Fish and chips created
+Recipe Garlic Bread created
+Recipe Guacamole created
+Recipe Broccoli Salad created
+Recipe Asian Salad created
+Recipe Chocolate Cake created
+Recipe Strawberry Cheesecake created
+Recipe Coca-Cola created
+Recipe Orange Fresh created
+Recipe Fish and chips successfully added to restaurant New Restaurant
+Recipe Garlic Bread successfully added to restaurant New Restaurant
+Recipe Guacamole successfully added to restaurant New Restaurant
+Recipe Asian Salad successfully added to restaurant New Restaurant
+Recipe Chocolate Cake successfully added to restaurant New Restaurant
+Recipe Strawberry Cheesecake successfully added to restaurant New Restaurant
+Recipe Broccoli Salad successfully added to restaurant New Restaurant
+Recipe Coca-Cola successfully added to restaurant New Restaurant
+Recipe Orange Fresh successfully added to restaurant New Restaurant
+The restaurant Invalid does not exist
+Command ToggleSugar executed successfully. New value: false
+***** New Restaurant - Sofia *****
+~~~~~ DRINKS ~~~~~
+==  Coca-Cola == $2.99
+Per serving: 200 ml, 7 kcal
+Ready in 2 minutes
+Carbonated: yes
+==  Orange Fresh == $3.50
+Per serving: 200 ml, 10 kcal
+Ready in 7 minutes
+Carbonated: no
+~~~~~ SALADS ~~~~~
+[VEGAN] ==  Asian Salad == $5.99
+Per serving: 300 g, 250 kcal
+Ready in 11 minutes
+Contains pasta: no
+[VEGAN] ==  Broccoli Salad == $4.99
+Per serving: 300 g, 120 kcal
+Ready in 12 minutes
+Contains pasta: no
+~~~~~ MAIN COURSES ~~~~~
+==  Fish and chips == $8.34
+Per serving: 320 g, 420 kcal
+Ready in 15 minutes
+Type: Meat
+[VEGAN] ==  Garlic Bread == $0.99
+Per serving: 150 g, 100 kcal
+Ready in 5 minutes
+Type: Side
+[VEGAN] ==  Guacamole == $1.11
+Per serving: 150 g, 125 kcal
+Ready in 10 minutes
+Type: Entree
+~~~~~ DESSERTS ~~~~~
+[NO SUGAR] [VEGAN] ==  Chocolate Cake == $1.50
+Per serving: 150 g, 450 kcal
+Ready in 4 minutes
+==  Strawberry Cheesecake == $2.12
+Per serving: 130 g, 320 kcal
+Ready in 6 minutes
+The command ToggleSugar is not applicable to recipe Coca-Cola
+The command ToggleVegan is not applicable to recipe Coca-Cola

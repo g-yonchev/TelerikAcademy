@@ -1,0 +1,15 @@
+Restaurant New Restaurant created
+Recipe Black Chocolate Cake created
+Recipe Black Chocolate Cake successfully added to restaurant New Restaurant
+***** New Restaurant - Sofia *****
+~~~~~ DESSERTS ~~~~~
+==  Black Chocolate Cake == $2.32
+Per serving: 120 g, 300 kcal
+Ready in 6 minutes
+Command ToggleSugar executed successfully. New value: false
+Command ToggleVegan executed successfully. New value: true
+***** New Restaurant - Sofia *****
+~~~~~ DESSERTS ~~~~~
+[NO SUGAR] [VEGAN] ==  Black Chocolate Cake == $2.32
+Per serving: 120 g, 300 kcal
+Ready in 6 minutes

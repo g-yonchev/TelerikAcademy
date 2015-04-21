@@ -1,0 +1,12 @@
+create Farm ferma
+add CherryTree chereshka
+
+status plant chereshka
+status plant chereshka
+
+
+exploit plant chereshka
+exploit plant chereshka
+status product chereshkaProduct
+status plant chereshka
+END

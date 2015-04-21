@@ -1,0 +1,2 @@
+CreateRestaurant(name=New Restaurant;location=Sofia)
+End

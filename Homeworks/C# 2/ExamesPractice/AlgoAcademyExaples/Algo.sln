@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Murzel", "1. Murzel\1. Murzel.csproj", "{53BE8AC5-D654-48C9-AA05-B7D73A6055C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Goro", "2. Goro\2. Goro.csproj", "{F537AE44-B50D-4D29-81F5-0B01D9726104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Algogrami", "3. Algogrami\3. Algogrami.csproj", "{9048D883-9CB4-4CA4-A55E-A2A42C96C6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. kubichen koren", "4. kubichen koren\4. kubichen koren.csproj", "{1853AFE4-4B28-4C1B-8122-FB384D10CD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. igli", "6. igli\6. igli.csproj", "{5A0B206B-F8E2-4D6B-AAB8-CB9FA1F6A459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Nai golqma redica", "2. Nai golqma redica\2. Nai golqma redica.csproj", "{B055B3CA-86A7-42B5-8560-EEEF4965AED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53BE8AC5-D654-48C9-AA05-B7D73A6055C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BE8AC5-D654-48C9-AA05-B7D73A6055C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BE8AC5-D654-48C9-AA05-B7D73A6055C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BE8AC5-D654-48C9-AA05-B7D73A6055C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F537AE44-B50D-4D29-81F5-0B01D9726104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F537AE44-B50D-4D29-81F5-0B01D9726104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F537AE44-B50D-4D29-81F5-0B01D9726104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F537AE44-B50D-4D29-81F5-0B01D9726104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9048D883-9CB4-4CA4-A55E-A2A42C96C6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9048D883-9CB4-4CA4-A55E-A2A42C96C6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9048D883-9CB4-4CA4-A55E-A2A42C96C6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9048D883-9CB4-4CA4-A55E-A2A42C96C6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1853AFE4-4B28-4C1B-8122-FB384D10CD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1853AFE4-4B28-4C1B-8122-FB384D10CD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1853AFE4-4B28-4C1B-8122-FB384D10CD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1853AFE4-4B28-4C1B-8122-FB384D10CD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0B206B-F8E2-4D6B-AAB8-CB9FA1F6A459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0B206B-F8E2-4D6B-AAB8-CB9FA1F6A459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0B206B-F8E2-4D6B-AAB8-CB9FA1F6A459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0B206B-F8E2-4D6B-AAB8-CB9FA1F6A459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B055B3CA-86A7-42B5-8560-EEEF4965AED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B055B3CA-86A7-42B5-8560-EEEF4965AED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B055B3CA-86A7-42B5-8560-EEEF4965AED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B055B3CA-86A7-42B5-8560-EEEF4965AED5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

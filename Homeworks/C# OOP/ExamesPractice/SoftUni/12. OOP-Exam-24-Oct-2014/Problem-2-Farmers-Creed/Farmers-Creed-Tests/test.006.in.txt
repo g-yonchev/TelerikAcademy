@@ -1,0 +1,17 @@
+create Farm harem
+add Grain jito
+add Cow krava
+add Swine svinq
+add CherryTree cheresha
+status plant cheresha
+status animal svinq
+exploit animal krava
+exploit animal krava
+add CherryTree novaCheresha
+water novaCheresha
+feed svinq jito 8
+feed svinq kravaProduct 12
+exploit animal svinq
+exploit animal krava
+status farm
+END

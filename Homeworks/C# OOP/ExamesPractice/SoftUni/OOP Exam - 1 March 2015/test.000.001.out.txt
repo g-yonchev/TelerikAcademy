@@ -1,0 +1,90 @@
+No questions
+User pesho with Id: 2 successfully registered
+User pesho successfully logged in
+Question with Id: 1 successfully posted
+[ Question ID: 1 ]
+Posted by: pesho
+Question Title: WTF!
+Question Body: textExplain
+====================
+No answers
+Logout success
+User pepi with Id: 3 successfully registered
+Operation not permitted. You have to login first
+User gosho with Id: 4 successfully registered
+User pepi successfully logged in
+Question with Id: 2 successfully posted
+[ Question ID: 1 ]
+Posted by: pesho
+Question Title: WTF!
+Question Body: textExplain
+====================
+No answers
+Answer with Id: 1 successfully posted
+Logout success
+User gosho successfully logged in
+[ Question ID: 1 ]
+Posted by: pesho
+Question Title: WTF!
+Question Body: textExplain
+====================
+Answers:
+[ Answer ID: 1 ]
+Posted by: pepi
+Answer Body: NemashGriji
+--------------------
+Answer with Id: 2 successfully posted
+[ Question ID: 2 ]
+Posted by: pepi
+Question Title: NaPepiVaprosa
+Question Body: Sloechainost
+====================
+No answers
+Answer with Id: 3 successfully posted
+[ Question ID: 1 ]
+Posted by: pesho
+Question Title: WTF!
+Question Body: textExplain
+====================
+Answers:
+[ Answer ID: 1 ]
+Posted by: pepi
+Answer Body: NemashGriji
+--------------------
+[ Answer ID: 2 ]
+Posted by: gosho
+Answer Body: OtgovoraNaGosho
+--------------------
+[ Question ID: 2 ]
+Posted by: pepi
+Question Title: NaPepiVaprosa
+Question Body: Sloechainost
+====================
+Answers:
+[ Answer ID: 3 ]
+Posted by: gosho
+Answer Body: NovOtgovorNaGosho
+--------------------
+Logout success
+User pepi successfully logged in
+[ Question ID: 2 ]
+Posted by: pepi
+Question Title: NaPepiVaprosa
+Question Body: Sloechainost
+====================
+Answers:
+[ Answer ID: 3 ]
+Posted by: gosho
+Answer Body: NovOtgovorNaGosho
+--------------------
+No such answer
+[ Question ID: 2 ]
+Posted by: pepi
+Question Title: NaPepiVaprosa
+Question Body: Sloechainost
+====================
+Answers:
+[ Answer ID: 3 ]
+Posted by: gosho
+Answer Body: NovOtgovorNaGosho
+--------------------

@@ -1,0 +1,21 @@
+create Farm fermy
+add CherryTree mimi
+add CherryTree geri
+add TobaccoPlant pushek
+status plant pushek
+add Swine svinio 
+water pushek
+status plant pushek
+exploit plant pushek
+exploit plant mimi
+exploit animal svinio
+exploit plant geri
+add CherryTree tretaCheresha
+add Cow kravica
+feed kravica mimiProduct 3
+status animal svinio
+exploit plant tretaCheresha
+status plant pushek
+status plant mimi
+status farm
+END

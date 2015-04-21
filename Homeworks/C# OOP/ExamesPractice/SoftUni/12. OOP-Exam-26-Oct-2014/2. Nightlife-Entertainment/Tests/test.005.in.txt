@@ -1,0 +1,16 @@
+insert venue opera LaScala Milan 800
+insert performance theatre MuchAdoAboutNothing 10.00 LaScala 5.11.2014 18:30:00
+supply_tickets regular LaScala MuchAdoAboutNothing 10
+sell_ticket MuchAdoAboutNothing regular
+insert venue sports_hall Sporty London 200
+insert performance concert BocelliForever 25.00 Sporty 3.11.2014 19:30:00
+supply_tickets regular Sporty BocelliForever 10
+sell_ticket BocelliForever regular
+insert venue concert_hall Olympia Paris 500
+insert performance concert Lili 22.33 Olympia 1.10.2011 20:00:00
+supply_tickets regular Olympia Lili 10
+sell_ticket Lili regular
+report MuchAdoAboutNothing
+report BocelliForever
+report Lili
+end

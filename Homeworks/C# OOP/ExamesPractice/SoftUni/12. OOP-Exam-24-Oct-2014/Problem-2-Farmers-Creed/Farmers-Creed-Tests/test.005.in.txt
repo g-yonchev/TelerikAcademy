@@ -1,0 +1,17 @@
+create Farm fo
+add TobaccoPlant tutun
+add CherryTree cheresha
+add Cow krava
+add Swine svinq
+add Grain jito
+status plant cheresha
+status product jito
+feed svinq jito 5
+feed krava jito 1
+status product jito
+status plant cheresha
+water cheresha
+water cheresha
+status plant cheresha
+status plant tutun
+END

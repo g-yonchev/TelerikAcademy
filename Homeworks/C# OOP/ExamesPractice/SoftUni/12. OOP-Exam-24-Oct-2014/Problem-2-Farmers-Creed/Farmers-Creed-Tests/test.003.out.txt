@@ -1,0 +1,4 @@
+--CherryTree chereshka, Health: 14, Grown: No
+--CherryTree chereshka, Health: 14, Grown: No
+--Food chereshkaProduct, Quantity: 8, Product Type: Cherry, Food Type: Organic, Health Effect: 2
+--CherryTree chereshka, Health: 8, Grown: Yes

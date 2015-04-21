@@ -1,0 +1,6 @@
+--CherryTree cheresha, Health: 12, Grown: Yes
+--Food jito, Quantity: 10, Product Type: Grain, Food Type: Organic, Health Effect: 2
+--Food jito, Quantity: 4, Product Type: Grain, Food Type: Organic, Health Effect: 2
+--CherryTree cheresha, Health: 8, Grown: Yes
+--CherryTree cheresha, Health: 6, Grown: Yes
+--TobaccoPlant tutun, Health: 5, Grown: Yes

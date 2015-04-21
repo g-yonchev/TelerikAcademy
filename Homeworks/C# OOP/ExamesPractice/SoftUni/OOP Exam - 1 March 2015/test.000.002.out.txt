@@ -1,0 +1,55 @@
+User gosho with Id: 2 successfully registered
+User gosho successfully logged in
+Question with Id: 1 successfully posted
+Logout success
+User pepi with Id: 3 successfully registered
+User with the same mail or username already exists
+Wrong username/password or username not registered
+User pepi successfully logged in
+No such question
+[ Question ID: 1 ]
+Posted by: gosho
+Question Title: oop_exam
+Question Body: egati_izpita
+====================
+No answers
+Answer with Id: 1 successfully posted
+Answer with Id: 2 successfully posted
+Logout success
+User gosho successfully logged in
+[ Question ID: 1 ]
+Posted by: gosho
+Question Title: oop_exam
+Question Body: egati_izpita
+====================
+Answers:
+[ Answer ID: 1 ]
+Posted by: pepi
+Answer Body: koi_e_kazal_che_e_lesen
+--------------------
+[ Answer ID: 2 ]
+Posted by: pepi
+Answer Body: pak_se_vkliuchvam
+--------------------
+Answer with Id: 3 successfully posted
+Answer with Id: 3 successfully made best answer
+[ Question ID: 1 ]
+Posted by: gosho
+Question Title: oop_exam
+Question Body: egati_izpita
+====================
+Answers:
+********************
+[ Answer ID: 3 ]
+Posted by: gosho
+Answer Body: haide_i_az_otgorariam
+--------------------
+********************
+[ Answer ID: 1 ]
+Posted by: pepi
+Answer Body: koi_e_kazal_che_e_lesen
+--------------------
+[ Answer ID: 2 ]
+Posted by: pepi
+Answer Body: pak_se_vkliuchvam
+--------------------

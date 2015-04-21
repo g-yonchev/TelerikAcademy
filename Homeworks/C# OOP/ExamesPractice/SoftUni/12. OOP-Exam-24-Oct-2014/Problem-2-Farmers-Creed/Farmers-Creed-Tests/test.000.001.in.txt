@@ -1,0 +1,27 @@
+create Tarapontii-Farm
+add Grain Jito
+add CherryTree Chereshata
+add Cow Krava
+add Cow Govedo
+add Swine Prasio
+add TobaccoPlant Tutun
+exploit animal Govedo
+feed Prasio GovedoProduct 3
+status animal Prasio
+exploit plant Tutun
+status product GovedoProduct
+status plant Chereshata
+exploit plant Chereshata
+exploit plant Chereshata
+status plant Chereshata
+status product ChereshataProduct
+status animal Prasio
+water Tutun
+status plant Tutun
+exploit animal Prasio
+status animal Prasio
+status animal Krava
+feed Krava PrasioProduct 1
+status animal Krava
+status farm
+END

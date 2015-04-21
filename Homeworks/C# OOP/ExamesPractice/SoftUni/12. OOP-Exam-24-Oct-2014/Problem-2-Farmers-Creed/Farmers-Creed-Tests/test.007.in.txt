@@ -1,0 +1,16 @@
+create Farm ferma
+add Cow kravichka
+add Cow krava
+add Cow kr
+add Cow k
+
+
+add CherryTree cheresha
+add TobaccoPlant tabak
+add TobaccoPlant tshak
+water tshak
+water tshak
+add CherryTree cherna
+
+status farm
+END

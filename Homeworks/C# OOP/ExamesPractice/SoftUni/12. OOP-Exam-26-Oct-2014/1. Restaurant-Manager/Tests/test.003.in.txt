@@ -1,0 +1,3 @@
+CreateRestaurant(name=New Restaurant;location=Sofia)
+PrintRestaurantMenu(name=New Restaurant)
+End

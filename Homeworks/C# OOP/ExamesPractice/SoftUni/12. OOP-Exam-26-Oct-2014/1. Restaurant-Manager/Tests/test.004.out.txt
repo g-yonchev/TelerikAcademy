@@ -1,0 +1,5 @@
+Restaurant New Restaurant created
+Recipe Fish and chips created
+The restaurant SoftUni Restaurant does not exist
+***** New Restaurant - Sofia *****
+No recipes... yet

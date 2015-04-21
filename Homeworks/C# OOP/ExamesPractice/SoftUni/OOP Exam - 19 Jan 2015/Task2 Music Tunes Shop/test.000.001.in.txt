@@ -1,0 +1,66 @@
+insert:performer;singer;Sully Erna
+report:performer;singer;Sully Erna
+insert:media;song;Until Then;0.99;Sully Erna;Rock;2010;5.09
+
+sell:song;Until Then;20
+
+report:media;song;Until Then
+supply:song;Until Then;50
+sell:song;Until Then;20
+
+insert:media;song;7 Years;0.99;Sully Erna;Rock;2010;8.40
+
+report:performer;singer;Sully Erna
+report:media;song;Until Then
+
+supply:song;7 Years;30
+sell:song;7 Years;10
+rate:song;7 Years;5
+rate:song;7 Years;4
+report:media;song;Until Then
+report:media;song;7 Years
+
+insert:media;album;Avalon;10.99;Sully Erna;Rock;2010
+report:media;album;Avalon
+
+insert:song_to_album;Avalon;Until Then
+insert:song_to_album;Avalon;7 Years
+
+report:media;album;Avalon
+
+insert:performer;band;Godsmack
+report:performer;band;Godsmack
+
+insert:member_to_band:Godsmack:Sully Erna
+insert:member_to_band:Godsmack:Shannon Larkin
+insert:member_to_band:Godsmack:Robbie Merrill
+insert:member_to_band:Godsmack:Tony Rombola
+
+report:performer;band;Godsmack
+
+insert:media;song;Livin' In Sin;1.99;Godsmack;Hard Rock;2006;4.39
+insert:media;song;Speak;2.99;Godsmack;Hard Rock;2006;3.57
+insert:media;song;The Enemy;0.999;Godsmack;Hard Rock;2006;4.07
+insert:media;song;Voodoo Too;0.98;Godsmack;Hard Rock;2006;5.26
+insert:media;song;One Rainy Day;1.39;Godsmack;Hard Rock;2006;7.21
+
+insert:media;album;IV;15.99;Godsmack;Hard Rock;2006
+
+insert:song_to_album;IV;Livin' In Sin
+insert:song_to_album;IV;Speak
+insert:song_to_album;IV;The Enemy
+insert:song_to_album;IV;Voodoo Too
+insert:song_to_album;IV;One Rainy Day
+
+supply:album;IV;30
+sell:album;IV;10
+
+report:performer;band;Godsmack
+
+supply:song;Speak;30
+sell:song;Speak;10
+rate:song;Speak;5
+
+report:media;song;Speak
+report:media;album;IV
+end

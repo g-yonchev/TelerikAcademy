@@ -1,0 +1,39 @@
+===== MuchAdoAboutNothing =====
+At LaScala (Milan)
+On 05/11/2014 18:30:00
+Seat: 1
+Price: $10.00
+===============
+MuchAdoAboutNothing: 1 ticket(s), total: $10.00
+Venue: LaScala (Milan)
+Start time: 05/11/2014 18:30:00
+===== BocelliForever =====
+At Sporty (London)
+On 03/11/2014 19:30:00
+Seat: 1
+Price: $25.00
+===============
+===== BocelliForever =====
+At Sporty (London)
+On 03/11/2014 19:30:00
+Seat: 2
+Price: $25.00
+===============
+===== BocelliForever =====
+At Sporty (London)
+On 03/11/2014 19:30:00
+Seat: 3
+Price: $25.00
+===============
+===== MuchAdoAboutNothing =====
+At LaScala (Milan)
+On 05/11/2014 18:30:00
+Seat: 2
+Price: $10.00
+===============
+MuchAdoAboutNothing: 2 ticket(s), total: $20.00
+Venue: LaScala (Milan)
+Start time: 05/11/2014 18:30:00
+BocelliForever: 3 ticket(s), total: $75.00
+Venue: Sporty (London)
+Start time: 03/11/2014 19:30:00

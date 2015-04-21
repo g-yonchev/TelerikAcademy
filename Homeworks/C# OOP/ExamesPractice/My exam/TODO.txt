@@ -1,0 +1,54 @@
+- Статичен клас Validator, в който може да се сложат валидации които използваме често.
+- Дори в наследяващите класове, да се листват интерфейсите които имплементира базовия клас с цел четимост.
+- Да се използват константи за плаващи стойности.
+- Online diff checker за сравнение на expected output и your output от bgcoder, при задачи с дълъг вход и изход.
+- !!!За нов ред - Environment.NewLine
+- Да се внимава с интервалите, като се копира формата на изходните данни.
+- Using-те да се слагат в namespace-a.
+- Тетрадка.
+- В наследяващ клас, базовите пропертита да се достъват с base не с this.
+- Да се оцветява условието във файла - кое е важно, кое е направено, кое не е.
+- С Class Diagram да се разгледат лесно, наличните класове и връзки.
+
+
+
+
+
+- make constats if is neccessery
+- abstract Class with protected constructor
+- Implement all Interfaces
+- when override method --> be sure it is nesseccery to invoke the base one.
+- DEFENSIVE PROGRAMMING - check given null object (Defensive programming)
+- all properties private (if is needed --> make them protected)
+- when is few validations in properties -> make static class Validator with methods
+
+- when two or more classes (objects) have same characteristics => common class or interface...
+
+DRY!!!!!!!!!!!!!
+
+
+
+
+
+///// field (Collection -> за да добавяме)
+private ICollection<IElement> childElements; 
+
+///// property (Enumeration -> изисквано от интерфесйа)
+public IEnumerable<IElement> ChildElements 
+        {
+	      ////// encapsulated!!!!!
+            get { return new List<IElement>(this.childElements); }
+            private set
+            {
+
+		   ////// casting
+                this.childElements = value as ICollection<IElement>;
+            }
+        }
+
+// casting interfaces
+// as returns null
+// (...) гърми
+
+
+

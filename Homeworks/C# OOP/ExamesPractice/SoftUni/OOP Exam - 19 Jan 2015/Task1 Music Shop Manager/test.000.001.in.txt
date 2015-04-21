@@ -1,0 +1,54 @@
+ListArticles[name:My Music Shop]
+
+// Create empty shop
+CreateMusicShop[name:My Music Shop]
+ListArticles[name:My Music Shop]
+
+// Create articles, add them to the shop and ensure they have been added correctly
+CreateMicrophone[make:JTS;model:TM989;price:20.00;cable:yes]
+AddArticleToShop[model:TM989;name:My Music Shop;make:JTS]
+ListArticles[name:My Music Shop]
+
+CreateDrums[model:DP-101;price:569.99;make:Legion;color:black;width:56;height:40]
+AddArticleToShop[name:My Music Shop;make:Legion;model:DP-101]
+
+CreateElectricGuitar[model:Chicago Flame;body:Mahogany;fingerboard:Ebony;price:1159.989;make:DEAN V;color:Classic Black;adapters:2;frets:22]
+AddArticleToShop[name:My Music Shop;make:DEAN V;model:Chicago Flame]
+
+CreateAcousticGuitar[body:Mahogany;model:AD-20;fingerboard:Mahogany;price:320;make:Aria;color:Natural;case:no;strings:Steel]
+AddArticleToShop[name:My Music Shop;make:Aria;model:AD-20]
+
+// Repeating guitar
+CreateElectricGuitar[model:Chicago Flame;body:Mahogany;fingerboard:Ebony;price:1159.989;make:DEAN V;color:Classic Black;adapters:2;frets:22]
+AddArticleToShop[name:My Music Shop;make:DEAN V;model:Chicago Flame]
+ListArticles[name:My Music Shop]
+
+// Adding to another shop
+CreateMusicShop[name:Other Shop]
+AddArticleToShop[name:Other Shop;make:DEAN V;model:Chicago Flame]
+
+CreateBassGuitar[make:Dean;model:Hillsboro 09 PJ;price:380.99;color:Classic Black;body:Basswood;fingerboard:Maple]
+AddArticleToShop[name:My Music Shop;make:Dean;model:Hillsboro 09 PJ]
+ListArticles[name:My Music Shop]
+
+ListArticles[name:Other Shop]
+
+AddArticleToShop[name:My Music Shop;make:Does Not;model:Exist]
+
+// Adding more items of the same type
+CreateElectricGuitar[model:Rocketeer Deluxe;body:Basswood;frets:22;fingerboard:Rosewood;price:473.45;make:Rogue;adapters:2;color:Brown / White]
+CreateElectricGuitar[model:DDF-1340TV / VSB;body:Basswood;fingerboard:Maple;price:1159.989;make:Apollo;color:Sunburst;adapters:3;frets:22]
+CreateMicrophone[make:JTS;model:IN264/IN264TH;price:1136;cable:no]
+AddArticleToShop[model:IN264/IN264TH;name:My Music Shop;make:JTS]
+AddArticleToShop[name:My Music Shop;make:Rogue;model:Rocketeer Deluxe]
+AddArticleToShop[name:My Music Shop;make:Apollo;model:DDF-1340TV / VSB]
+ListArticles[name:My Music Shop]
+
+// Removing articles
+RemoveArticleFromShop[model:IN264/IN264TH;name:My Music Shop;make:JTS]
+RemoveArticleFromShop[model:TM989;name:My Music Shop;make:JTS]
+ListArticles[name:My Music Shop]
+
+// Removing already removed article
+RemoveArticleFromShop[model:TM989;name:My Music Shop;make:JTS]
+End

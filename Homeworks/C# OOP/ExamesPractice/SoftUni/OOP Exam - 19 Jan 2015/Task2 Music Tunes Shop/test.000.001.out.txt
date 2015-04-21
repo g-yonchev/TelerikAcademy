@@ -1,0 +1,81 @@
+Singer Sully Erna added successfully
+Sully Erna: no songs
+Song Until Then by Sully Erna added successfully
+There are not enough supplies.
+Until Then (2010) by Sully Erna
+Genre: Rock, Price: $0.99
+Rating: 0
+Supplies: 0, Sold: 0
+50 items of song Until Then successfully supplied.
+20 items of song Until Then successfully sold.
+Song 7 Years by Sully Erna added successfully
+Sully Erna: 7 Years; Until Then
+Until Then (2010) by Sully Erna
+Genre: Rock, Price: $0.99
+Rating: 0
+Supplies: 30, Sold: 20
+30 items of song 7 Years successfully supplied.
+10 items of song 7 Years successfully sold.
+The rating has been placed successfully.
+The rating has been placed successfully.
+Until Then (2010) by Sully Erna
+Genre: Rock, Price: $0.99
+Rating: 0
+Supplies: 30, Sold: 20
+7 Years (2010) by Sully Erna
+Genre: Rock, Price: $0.99
+Rating: 5
+Supplies: 20, Sold: 10
+Album Avalon by Sully Erna added successfully
+Avalon (2010) by Sully Erna
+Genre: Rock, Price: $10.99
+Supplies: 0, Sold: 0
+No songs
+The song Until Then has been added to the album Avalon.
+The song 7 Years has been added to the album Avalon.
+Avalon (2010) by Sully Erna
+Genre: Rock, Price: $10.99
+Supplies: 0, Sold: 0
+Songs:
+Until Then (5.09)
+7 Years (8.40)
+Band Godsmack added successfully
+Godsmack: 
+no songs
+The member Sully Erna has been added to the band Godsmack.
+The member Shannon Larkin has been added to the band Godsmack.
+The member Robbie Merrill has been added to the band Godsmack.
+The member Tony Rombola has been added to the band Godsmack.
+Godsmack: Sully Erna, Shannon Larkin, Robbie Merrill, Tony Rombola
+no songs
+Song Livin' In Sin by Godsmack added successfully
+Song Speak by Godsmack added successfully
+Song The Enemy by Godsmack added successfully
+Song Voodoo Too by Godsmack added successfully
+Song One Rainy Day by Godsmack added successfully
+Album IV by Godsmack added successfully
+The song Livin' In Sin has been added to the album IV.
+The song Speak has been added to the album IV.
+The song The Enemy has been added to the album IV.
+The song Voodoo Too has been added to the album IV.
+The song One Rainy Day has been added to the album IV.
+30 items of album IV successfully supplied.
+10 items of album IV successfully sold.
+Godsmack: Sully Erna, Shannon Larkin, Robbie Merrill, Tony Rombola
+Livin' In Sin; One Rainy Day; Speak; The Enemy; Voodoo Too
+30 items of song Speak successfully supplied.
+10 items of song Speak successfully sold.
+The rating has been placed successfully.
+Speak (2006) by Godsmack
+Genre: Hard Rock, Price: $2.99
+Rating: 5
+Supplies: 20, Sold: 10
+IV (2006) by Godsmack
+Genre: Hard Rock, Price: $15.99
+Supplies: 20, Sold: 10
+Songs:
+Livin' In Sin (4.39)
+Speak (3.57)
+The Enemy (4.07)
+Voodoo Too (5.26)
+One Rainy Day (7.21)

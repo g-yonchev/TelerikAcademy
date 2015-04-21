@@ -1,0 +1,24 @@
+register ivan ivo i@gmail.bg
+register pepi ppp p@abv.bg
+register jivka jjj yahoo.com
+login ivan ivo
+showQuestions
+postQuestion SoftUni may_I_join
+logout
+login pepi ppp
+postQuestion triadica tarsia_sakvartirant
+openQuestion 1
+postAnswer unito_e_super
+logout
+login jivka jjj
+openQuestion 1
+postAnswer taka_si_e
+openQuestion 2
+postAnswer saglasna_sam
+logout
+login pepi ppp
+openQuestion 2
+postAnswer vzimam_te
+makeBestAnswer 3
+showQuestions
+exit

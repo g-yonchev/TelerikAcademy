@@ -1,0 +1,6 @@
+--Swine Ginka, DEAD
+--CherryTree StarataCheresha, Health: 10, Grown: Yes
+--Food GinkaProduct, Quantity: 1, Product Type: PorkMeat, Food Type: Meat, Health Effect: 5
+--Swine Korchan, Health: 2
+--Swine Korchan, Health: 9
+--CherryTree StarataCheresha, Health: 8, Grown: Yes

@@ -1,0 +1,19 @@
+--Swine Prasio, Health: 32
+--Food GovedoProduct, Quantity: 3, Product Type: Milk, Food Type: Organic, Health Effect: 4
+--CherryTree Chereshata, Health: 4, Grown: Yes
+--CherryTree Chereshata, DEAD
+--Food ChereshataProduct, Quantity: 8, Product Type: Cherry, Food Type: Organic, Health Effect: 2
+--Swine Prasio, Health: 23
+--TobaccoPlant Tutun, Health: 9, Grown: Yes
+--Swine Prasio, DEAD
+--Cow Krava, Health: 4
+--Cow Krava, DEAD
+--Farm Tarapontii-Farm
+--Cow Govedo, Health: 2
+--TobaccoPlant Tutun, Health: 7, Grown: Yes
+--Food ChereshataProduct, Quantity: 8, Product Type: Cherry, Food Type: Organic, Health Effect: 2
+--Food Jito, Quantity: 10, Product Type: Grain, Food Type: Organic, Health Effect: 2
+--Food GovedoProduct, Quantity: 3, Product Type: Milk, Food Type: Organic, Health Effect: 4
+--Food PrasioProduct, Quantity: 0, Product Type: PorkMeat, Food Type: Meat, Health Effect: 5
+--Product TutunProduct, Quantity: 10, Product Type: Tobacco
+

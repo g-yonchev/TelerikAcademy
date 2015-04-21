@@ -1,0 +1,9 @@
+create Farm baraka
+add TobaccoPlant tutun
+add TobaccoPlant cigarnik
+status plant cigarnik
+
+exploit plant tutun
+exploit plant tutun
+status plant tutun
+END

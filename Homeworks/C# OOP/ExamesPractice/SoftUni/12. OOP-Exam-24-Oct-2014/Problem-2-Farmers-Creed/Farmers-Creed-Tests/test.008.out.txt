@@ -1,0 +1,15 @@
+--TobaccoPlant pushek, Health: 12, Grown: No
+--TobaccoPlant pushek, Health: 13, Grown: Yes
+--Swine svinio, DEAD
+--TobaccoPlant pushek, Health: 5, Grown: Yes
+--CherryTree mimi, DEAD
+--Farm Farm
+--Cow kravica, Health: 18
+--TobaccoPlant pushek, Health: 5, Grown: Yes
+--CherryTree tretaCheresha, Health: 12, Grown: Yes
+--Food geriProduct, Quantity: 4, Product Type: Cherry, Food Type: Organic, Health Effect: 2
+--Food tretaChereshaProduct, Quantity: 4, Product Type: Cherry, Food Type: Organic, Health Effect: 2
+--Food mimiProduct, Quantity: 1, Product Type: Cherry, Food Type: Organic, Health Effect: 2
+--Food svinioProduct, Quantity: 1, Product Type: PorkMeat, Food Type: Meat, Health Effect: 5
+--Product pushekProduct, Quantity: 10, Product Type: Tobacco
+

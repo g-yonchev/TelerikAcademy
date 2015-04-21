@@ -1,0 +1,82 @@
+No estates
+No offers
+Office created.
+Apartment created.
+House created.
+Garage created.
+Estates:
+  Office: Name = myOffice, Area = 70.2, Location = Sofia, Furnitured = Yes, Rooms: 1, Elevator: No
+  Apartment: Name = myApartment, Area = 260.55, Location = Sofia, Furnitured = Yes, Rooms: 5, Elevator: Yes
+  House: Name = myHouse, Area = 150.5, Location = Bankya, Furnitured = Yes, Floors: 4
+  Garage: Name = myGarage, Area = 40.85, Location = Pleven, Furnitured = Yes, Width: 8, Height: 5
+No offers
+SaleOffer created.
+RentOffer created.
+RentOffer created.
+SaleOffer created.
+RentOffer created.
+RentOffer created.
+SaleOffer created.
+RentOffer created.
+SaleOffer created.
+RentOffer created.
+RentOffer created.
+RentOffer created.
+RentOffer created.
+Estates:
+  Office: Name = myOffice, Area = 70.2, Location = Sofia, Furnitured = Yes, Rooms: 1, Elevator: No
+  Apartment: Name = myApartment, Area = 260.55, Location = Sofia, Furnitured = Yes, Rooms: 5, Elevator: Yes
+  House: Name = myHouse, Area = 150.5, Location = Bankya, Furnitured = Yes, Floors: 4
+  Garage: Name = myGarage, Area = 40.85, Location = Pleven, Furnitured = Yes, Width: 8, Height: 5
+Offers:
+  Sale: Estate = myApartment, Location = Sofia, Price = 160000.33
+  Rent: Estate = myOffice, Location = Sofia, Price = 1200.55
+  Rent: Estate = myHouse, Location = Bankya, Price = 1400.20
+  Sale: Estate = myHouse, Location = Bankya, Price = 185000
+  Rent: Estate = myGarage, Location = Pleven, Price = 120
+  Rent: Estate = myOffice, Location = Sofia, Price = 1199.350
+  Sale: Estate = myGarage, Location = Pleven, Price = 8500
+  Rent: Estate = myOffice, Location = Sofia, Price = 1200
+  Sale: Estate = myOffice, Location = Sofia, Price = 38000.755
+  Rent: Estate = myOffice, Location = Sofia, Price = 1150
+  Rent: Estate = myApartment, Location = Sofia, Price = 800.5
+  Rent: Estate = myApartment, Location = Sofia, Price = 1150.25
+  Rent: Estate = myOffice, Location = Sofia, Price = 1401
+Office created.
+Apartment created.
+House created.
+Garage created.
+Garage created.
+RentOffer created.
+SaleOffer created.
+RentOffer created.
+SaleOffer created.
+RentOffer created.
+SaleOffer created.
+RentOffer created.
+SaleOffer created.
+Query Results:
+  [Estate: myApartment, Location: Sofia, Price: 800.5]
+  [Estate: myOffice, Location: Sofia, Price: 1150]
+  [Estate: myApartment, Location: Sofia, Price: 1150.25]
+  [Estate: myOffice, Location: Sofia, Price: 1199.350]
+  [Estate: myOffice, Location: Sofia, Price: 1200]
+  [Estate: myOffice, Location: Sofia, Price: 1200.55]
+Query Results:
+  [Estate: houseKnyazhevo, Location: Knyazhevo, Price: 1350.45]
+Query Results:
+  [Estate: myApartment, Location: Sofia, Price: 160000.33]
+  [Estate: myOffice, Location: Sofia, Price: 38000.755]
+Query Results:
+  [Estate: myApartment, Location: Sofia, Price: 800.5]
+  [Estate: myApartment, Location: Sofia, Price: 1150.25]
+  [Estate: myOffice, Location: Sofia, Price: 1200.55]
+  [Estate: myOffice, Location: Sofia, Price: 1199.350]
+  [Estate: myOffice, Location: Sofia, Price: 1200]
+  [Estate: myOffice, Location: Sofia, Price: 1150]
+  [Estate: myOffice, Location: Sofia, Price: 1401]
+Query Results:
+  [Estate: myGarage, Location: Pleven, Price: 8500]
+  [Estate: officePleven, Location: Pleven, Price: 150002.23]
+Query Results:
+  [Estate: apartmentRousse, Location: Rousse, Price: 450]

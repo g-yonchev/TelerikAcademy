@@ -1,0 +1,21 @@
+Restaurant New Restaurant created
+Recipe Fish and chips created
+Recipe Garlic Bread created
+Recipe Guacamole created
+Recipe Broccoli Salad created
+Recipe Asian Salad created
+Recipe Strawberry Cheesecake created
+Recipe Coca-Cola created
+Recipe Fish and chips successfully added to restaurant New Restaurant
+Recipe Asian Salad successfully added to restaurant New Restaurant
+***** New Restaurant - Sofia *****
+~~~~~ SALADS ~~~~~
+[VEGAN] ==  Asian Salad == $5.99
+Per serving: 300 g, 250 kcal
+Ready in 11 minutes
+Contains pasta: no
+~~~~~ MAIN COURSES ~~~~~
+==  Fish and chips == $8.34
+Per serving: 320 g, 420 kcal
+Ready in 15 minutes
+Type: Meat

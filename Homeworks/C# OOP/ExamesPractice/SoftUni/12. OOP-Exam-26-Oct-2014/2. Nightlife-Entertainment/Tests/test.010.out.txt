@@ -1,0 +1,63 @@
+===== Dracula =====
+At Arena (Sofia)
+On 12/10/2014 20:00:00
+Seat: 1
+Price: $12.00
+===============
+===== Dracula =====
+At Arena (Sofia)
+On 12/10/2014 20:00:00
+Seat: 2
+Price: $12.00
+===============
+There is no unsold ticket of the specified type.
+===== Dracula =====
+At Arena (Sofia)
+On 12/10/2014 20:00:00
+Seat: 3
+Price: $12.00
+===============
+===== Dracula =====
+At Arena (Sofia)
+On 12/10/2014 20:00:00
+Seat: 6
+Price: $9.60
+===============
+There is no unsold ticket of the specified type.
+There is no unsold ticket of the specified type.
+There is no unsold ticket of the specified type.
+===== TarjaTurunen =====
+At Metropolitan (NewYork)
+On 10/11/2014 20:00:00
+Seat: 1
+Price: $55.00
+===============
+===== TarjaTurunen =====
+At Metropolitan (NewYork)
+On 10/11/2014 20:00:00
+Seat: 101
+Price: $44.00
+===============
+===== TarjaTurunen =====
+At Metropolitan (NewYork)
+On 10/11/2014 20:00:00
+Seat: 151
+Price: $82.50
+===============
+Dracula: 4 ticket(s), total: $45.60
+Venue: Arena (Sofia)
+Start time: 12/10/2014 20:00:00
+TarjaTurunen: 3 ticket(s), total: $181.50
+Venue: Metropolitan (NewYork)
+Start time: 10/11/2014 20:00:00
+Search for "a"
+Performances:
+-TarjaTurunen
+-Dracula
+Venues:
+-Arena
+--Dracula
+-ArenaArmenets
+-LaScala
+-Metropolitan
+--TarjaTurunen

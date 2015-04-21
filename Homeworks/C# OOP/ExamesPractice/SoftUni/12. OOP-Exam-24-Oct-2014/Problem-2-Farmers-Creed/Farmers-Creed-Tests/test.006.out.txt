@@ -1,0 +1,9 @@
+--CherryTree cheresha, Health: 14, Grown: No
+--Swine svinq, Health: 14
+--Farm Farm
+--CherryTree cheresha, Health: 2, Grown: Yes
+--CherryTree novaCheresha, Health: 9, Grown: Yes
+--Food jito, Quantity: 2, Product Type: Grain, Food Type: Organic, Health Effect: 2
+--Food kravaProduct, Quantity: 6, Product Type: Milk, Food Type: Organic, Health Effect: 4
+--Food svinqProduct, Quantity: 1, Product Type: PorkMeat, Food Type: Meat, Health Effect: 5
+

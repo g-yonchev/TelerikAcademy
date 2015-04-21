@@ -1,0 +1,27 @@
+===== MuchAdoAboutNothing =====
+At LaScala (Milan)
+On 05/11/2014 18:30:00
+Seat: 1
+Price: $10.00
+===============
+===== BocelliForever =====
+At Sporty (London)
+On 03/11/2014 19:30:00
+Seat: 1
+Price: $25.00
+===============
+===== Lili =====
+At Olympia (Paris)
+On 01/10/2011 20:00:00
+Seat: 1
+Price: $22.33
+===============
+MuchAdoAboutNothing: 1 ticket(s), total: $10.00
+Venue: LaScala (Milan)
+Start time: 05/11/2014 18:30:00
+BocelliForever: 1 ticket(s), total: $25.00
+Venue: Sporty (London)
+Start time: 03/11/2014 19:30:00
+Lili: 1 ticket(s), total: $22.33
+Venue: Olympia (Paris)
+Start time: 01/10/2011 20:00:00

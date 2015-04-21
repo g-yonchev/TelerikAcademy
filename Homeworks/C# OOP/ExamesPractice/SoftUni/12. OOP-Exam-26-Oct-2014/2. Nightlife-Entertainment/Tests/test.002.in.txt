@@ -1,0 +1,6 @@
+insert venue cinema Arena Sofia-Mladost 200
+insert performance movie Dracula 12.00 Arena 12.10.2014 20:00:00
+supply_tickets regular Arena Dracula 5
+sell_ticket Dracula regular
+report Dracula
+end

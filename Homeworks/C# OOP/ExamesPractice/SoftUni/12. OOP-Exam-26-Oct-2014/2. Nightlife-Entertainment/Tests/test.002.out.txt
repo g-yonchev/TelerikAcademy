@@ -1,0 +1,9 @@
+===== Dracula =====
+At Arena (Sofia-Mladost)
+On 12/10/2014 20:00:00
+Seat: 1
+Price: $12.00
+===============
+Dracula: 1 ticket(s), total: $12.00
+Venue: Arena (Sofia-Mladost)
+Start time: 12/10/2014 20:00:00

@@ -1,0 +1,10 @@
+--Farm Farm
+--Cow k, Health: 5
+--Cow kr, Health: 4
+--Cow krava, Health: 3
+--Cow kravichka, Health: 2
+--CherryTree cheresha, Health: 6, Grown: Yes
+--TobaccoPlant tabak, Health: 8, Grown: Yes
+--TobaccoPlant tshak, Health: 13, Grown: Yes
+--CherryTree cherna, Health: 14, Grown: No
+
