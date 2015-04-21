@@ -1,0 +1,75 @@
+/* CSS Document */
+
+body * {
+    padding: 0;
+    margin: 0;
+}
+
+table
+	{
+	font-family: sans-serif, "Times New Roman";
+    background-color: #59585A;
+
+}
+
+th
+	{
+	font-size: 22px;
+	color: #9b999b;
+	text-align:justify;
+	padding: 5px;
+	padding-top: 15px;
+    font-weight: normal;
+}
+
+td
+	{	
+	padding: 5px;
+}
+
+.info
+	{
+	color:white;
+	font-style: italic;
+}
+
+.one
+	{
+	color: #d6cca6;
+}
+
+.two
+	{
+	color: red;
+	font-weight: bold;
+}
+
+.three
+	{
+	color: darkgray;
+}
+
+.four
+	{
+	color: darkorange;
+	font-weight: bold;
+}
+
+#colfirst
+	{
+	width:140px;
+}
+
+#colsecond
+	{
+	width:300px;
+}
+
+#dot {
+   width: 12px;
+   height: 12px;
+   color: #71B47A;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   border-radius: 50%;
+}

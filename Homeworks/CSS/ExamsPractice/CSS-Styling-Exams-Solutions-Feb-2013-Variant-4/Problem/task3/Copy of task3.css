@@ -1,0 +1,71 @@
+body, html, div, hgroup, h2, h3, p, a, span {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    margin: 20px;
+    position: relative;
+    width: 960px;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+}
+
+body #wrapper > div {
+    float: left;
+    top: 10px;
+    display: inline-block;
+    width: 100px;
+    border: 2px solid #D3D7DA;
+    width: 140px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -2px;
+}
+
+body #wrapper div:nth-child(1) hgroup h2:before {
+    content: url('imgs/install.png');
+}
+
+body #wrapper div:nth-child(2) hgroup > h2:before {
+    content: url('imgs/tuneUp.png');
+}
+
+body #wrapper div:nth-child(3) hgroup > h2:before {
+    content: url('imgs/manage.png');
+}
+
+body #wrapper div:nth-child(4) hgroup > h2:before {
+    content: url('imgs/openSource.png');
+}
+
+body #wrapper div:nth-child(5) hgroup > h2:before {
+    content: url('imgs/twitter.png');
+}
+
+
+body #wrapper div:nth-child(6) hgroup > h2:before {
+    content: url('imgs/about.png');
+}
+
+a {
+    text-decoration: none;
+    color: #C72D2F;
+}
+
+body #wrapper div div(.yellowBox) a {
+    display: block;
+}
+
+.yellowBox {
+    border: 1px solid yellow;
+    background-color: #FFFFDD;
+}
+
+body #wrapper > div:nth-child(odd) {
+    height: 260px;
+}
+
+body #wrapper > div:nth-child(even) {
+    height: 300px;
+}

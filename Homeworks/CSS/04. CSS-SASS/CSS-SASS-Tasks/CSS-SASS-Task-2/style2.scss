@@ -1,0 +1,32 @@
+
+ul
+{
+	li
+	{
+
+	list-style:none;
+	display:inline-block;
+		img
+		{
+			width:100px;
+			height:100px;	
+		}
+	}
+}
+
+
+.big-pic
+{
+display:none;
+position:absolute;
+left:60px;
+}
+input
+{
+display:none;
+	&:checked + img
+	{
+	display:block;	
+	}
+}
+

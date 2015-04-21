@@ -1,0 +1,46 @@
+html, body, div, table, thead, tfoot, tbody, tr, th, td, label, span, button {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	background-color: #353535;
+	padding: 40px;
+}
+
+thead th {
+	border: 1px solid black;
+}
+
+tbody td {
+	font-size: 10px;
+	border-bottom: 1px solid gray;
+	padding: 5px 10px;
+}
+
+table {
+	background-color: white;
+}
+
+span, button, tbody tr:first-of-type td {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+th * {
+	display: block;
+}
+
+tbody tr td {
+	text-transform: capitalize;
+}
+
+button {
+	color: white;
+	background-color: green;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid green;
+	font-size: 10px;
+	float: center;
+}

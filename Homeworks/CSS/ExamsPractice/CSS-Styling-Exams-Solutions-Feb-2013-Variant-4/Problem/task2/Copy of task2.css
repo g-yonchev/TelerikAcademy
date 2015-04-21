@@ -1,0 +1,41 @@
+﻿body, div, ul, li, html, img, span {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    font-size: 16px;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    position: relative;
+    background-color: #CCCCCC;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 680px;
+    height: 418px;
+}
+
+.playlist {
+    top: 20px;
+    right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.holder img {
+    width: 550px;
+    height: 414px;
+}
+
+a {
+    color: initial;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}

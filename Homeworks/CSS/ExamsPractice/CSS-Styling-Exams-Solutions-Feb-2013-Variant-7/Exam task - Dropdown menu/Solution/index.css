@@ -1,0 +1,89 @@
+﻿html,
+body,
+nav,
+ul,
+li,
+a,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Comic Sans MS', cursives;
+  font-size: 16px;
+  background: #C8E7E8;
+}
+body nav {
+  margin: 10px auto;
+  width: 910px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  background: #DFF9FA;
+}
+body nav ul.main-menu {
+  list-style-type: none;
+}
+body nav ul.main-menu > li {
+  margin-left: -4px;
+  display: inline-block;
+  width: 160px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 15px;
+  position: relative;
+  background: #3edfe5;
+  background: -moz-linear-gradient(top, #d6f7f8 30%, #3edfe5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #d6f7f8), color-stop(100%, #3edfe5));
+  background: -webkit-linear-gradient(top, #d6f7f8 30%, #3edfe5 100%);
+  background: -o-linear-gradient(top, #d6f7f8 30%, #3edfe5 100%);
+  background: -ms-linear-gradient(top, #d6f7f8 30%, #3edfe5 100%);
+  background: linear-gradient(to bottom, #d6f7f8 30%, #3edfe5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d6f7f8', endColorstr='#3edfe5', GradientType=0);
+  background-repeat: no-repeat;
+}
+body nav ul.main-menu > li:hover {
+  background: #3EDFE5;
+}
+body nav ul.main-menu > li ul {
+  font-size: 1.3em;
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  border: 1px solid black;
+  border-radius: 15px;
+  border-top: none;
+  width: 140px;
+  padding: 10px 20px;
+  background: #069fa4;
+  background: -moz-linear-gradient(top, #3edfe5 0%, #069fa4 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3edfe5), color-stop(100%, #069fa4));
+  background: -webkit-linear-gradient(top, #3edfe5 0%, #069fa4 100%);
+  background: -o-linear-gradient(top, #3edfe5 0%, #069fa4 100%);
+  background: -ms-linear-gradient(top, #3edfe5 0%, #069fa4 100%);
+  background: linear-gradient(to bottom, #3edfe5 0%, #069fa4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3edfe5', endColorstr='#069fa4', GradientType=0);
+  background-repeat: no-repeat;
+}
+body nav ul.main-menu > li ul li {
+  border-bottom: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+body nav ul.main-menu > li ul li:hover {
+  background: #069FA4;
+}
+body nav ul.main-menu > li ul li a {
+  text-decoration: none;
+  color: black;
+}
+body nav ul.main-menu > li:hover {
+  border-bottom: none;
+}
+body nav ul.main-menu > li:hover ul {
+  display: block;
+}
+/*# sourceMappingURL=index.css.map */

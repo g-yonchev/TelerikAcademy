@@ -1,0 +1,82 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+.invisible {
+	display: none;
+}
+
+.popup-item {
+	border-top: 1px solid black;
+	padding: 5px 13px 7px 5px;
+	position: relative;
+}
+
+.popup-item:last-of-type {
+	border-bottom: 1px solid black;
+}
+
+#wrapper {
+	margin: 15px;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+img {
+	width: 25px;
+	height: 25px;
+}
+
+.popup-content {
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}
+
+span.current {
+	font-weight: bold;
+}
+
+fieldset {
+	padding: 15px 15px 15px 14px;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 0px 2px;
+}
+
+.btn-popup-close {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 15px;
+	text-align: center;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+.btn-popup-close:hover {
+	text-decoration: underline;
+}
+
+button {
+	border-radius: 15px;
+	padding: 5px 10px;
+	background-color: darkgray;
+	border: none;
+}
+
+button:hover {
+	background-color: lightgray;
+}

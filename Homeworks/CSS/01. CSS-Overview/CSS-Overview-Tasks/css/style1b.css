@@ -1,0 +1,76 @@
+/* CSS Document */
+
+body * {
+    font-family: sans-serif, "Times New Roman";
+    padding: 0;
+    margin: 0;
+}
+
+dl {
+    width: 434px;
+    height: 300px;
+    background-color: #59585A;
+	font-size: 22px;
+	color: #9b999b;
+	text-align:justify;
+	padding: 5px;
+	padding-top: 17px;
+    padding-left: 7px;
+
+}
+
+dt  {
+    color:white;
+	font-style: italic;
+    font-size: 16px;
+    margin: 0;
+}
+
+dd {
+    width: 100%;
+    text-indent: 140px;
+    font-size: 16px;
+    padding: 2px;
+    margin: -20px 0px 22px 120px;;
+}
+
+#name {
+    padding-top: 12px;
+}
+
+.info
+	{
+	color:white;
+	font-style: italic;
+}
+
+.one
+	{
+	color: #d6cca6;
+}
+
+.two
+	{
+	color: red;
+	font-weight: bold;
+}
+
+.three
+	{
+	color: darkgray;
+}
+
+.four
+	{
+	color: darkorange;
+	font-weight: bold;
+}
+
+#dot {
+   width: 12px;
+   height: 12px;
+   color: #71B47A;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   border-radius: 50%;
+}

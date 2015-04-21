@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+	font-size: 16px;
+}
+
+#wrapper {
+	width: 960px;
+}
+
+#wrapper div {
+	border: 1px solid black;
+	margin: 30px;
+	border-radius: 15px;
+	width: 380px;
+	height: 463px;
+	background: rgb(238,238,238);
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(170,170,170,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(170,170,170,1)));
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(170,170,170,1) 100%);
+	background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(170,170,170,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(170,170,170,1) 100%);
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(170,170,170,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 );
+
+}
+h1 {
+	font-size: 1.8em;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+ul.messages-list {
+	list-style-type: none;
+}
+
+span {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+span.date {
+	font-family: Consolas;
+	font-weight: normal;
+	font-size: 0.7em;
+}
+
+li {
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 55px;
+	width: 200px;
+	margin: 0 15px 5px 15px;
+	padding: 5px 15px;
+}
+
+li[class=me-item] {
+	float: right;
+	background: rgb(41,237,255);
+	background: -moz-linear-gradient(top,  rgba(41,237,255,1) 0%, rgba(192,250,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(41,237,255,1)), color-stop(100%,rgba(192,250,255,1)));
+	background: -webkit-linear-gradient(top,  rgba(41,237,255,1) 0%,rgba(192,250,255,1) 100%);
+	background: -o-linear-gradient(top,  rgba(41,237,255,1) 0%,rgba(192,250,255,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(41,237,255,1) 0%,rgba(192,250,255,1) 100%);
+	background: linear-gradient(to bottom,  rgba(41,237,255,1) 0%,rgba(192,250,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 );
+}
+
+li[class=toshko-item] {
+	float: left;
+	background: rgb(223,255,210);
+	background: -moz-linear-gradient(top,  rgba(223,255,210,1) 0%, rgba(111,255,59,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(223,255,210,1)), color-stop(100%,rgba(111,255,59,1)));
+	background: -webkit-linear-gradient(top,  rgba(223,255,210,1) 0%,rgba(111,255,59,1) 100%);
+	background: -o-linear-gradient(top,  rgba(223,255,210,1) 0%,rgba(111,255,59,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(223,255,210,1) 0%,rgba(111,255,59,1) 100%);
+	background: linear-gradient(to bottom,  rgba(223,255,210,1) 0%,rgba(111,255,59,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 );
+}
+
+input {
+	padding: 9px 15px;
+	margin-left: 15px;
+	margin-top: 2px;
+	width: 245px;
+	border-radius: 5px;
+	border: none;
+	background: #EEEEEE;
+	color: gray;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	font-size: 1em;
+	font-weight: bold;
+	width: 69px;
+	height: 32px;
+	background: rgb(238,238,238);
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(170,170,170,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(170,170,170,1)));
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(170,170,170,1) 100%);
+	background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(170,170,170,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(170,170,170,1) 100%);
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(170,170,170,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 );
+}
+
+button:hover {
+	background: #EEEEEE;
+}
+
+input:focus {
+    outline: 0;
+}

@@ -1,0 +1,29 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+}
+
+li ul, li ul li ul li{
+	display: none;
+}
+
+li.selected {
+	background-color: gray;
+}
+
+ul li.selected ul {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+}
+
+ul li.selected ul li ul {
+	display: block;
+}
+ul li.selected ul li:hover ul li {
+	display: block;
+}

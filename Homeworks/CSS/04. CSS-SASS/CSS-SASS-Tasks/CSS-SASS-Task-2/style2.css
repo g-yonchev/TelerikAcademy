@@ -1,0 +1,17 @@
+ul li {
+  list-style: none;
+  display: inline-block; }
+  ul li img {
+    width: 100px;
+    height: 100px; }
+
+.big-pic {
+  display: none;
+  position: absolute;
+  left: 60px; }
+
+input {
+  display: none; }
+  input:checked + img {
+    display: block; }
+

@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CSS-Presentation-Taks-4</title>
+    <link href="css/style4.css" rel="stylesheet" />
+</head>
+<body>
+    <section>
+        <form>
+            <div id="calculator" class="panel">
+                <header>
+                    <img src="images/Calculator_Windows_7_Icon.png">
+                    <label>Calculator</label>
+                    <ul>
+                        <li>
+                            <input type="button" value="–" id="minimize">
+                        </li>
+                        <li>
+                            <input type="button" value="□" id="maximize">
+                        </li>
+                        <li>
+                            <input type="button" value="x" id="close">
+                        </li>
+                    </ul>
+                </header>
+
+                <div id="calculator-body">
+                    <nav>
+                        <ul>
+                            <li>View</li>
+                            <li>Edit</li>
+                            <li>Help</li>
+                        </ul>
+                    </nav>
+
+                    <div id="result-panel" class="panel">
+                        <span>8854455</span>
+                    </div>
+
+                    <div class="panel" id="binary-panel">
+                        <ul>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                        </ul>
+                        <ul>
+                            <li>63</li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
+                            <li>47</li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
+                            <li>32</li>
+                        </ul>
+                        <ul>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>1000</li>
+                            <li>0111</li>
+                            <li>0001</li>
+                            <li>1011</li>
+                            <li>1011</li>
+                            <li>0111</li>
+                        </ul>
+                        <ul>
+                            <li>31</li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
+                            <li>15</li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
+                            <li>0</li>
+                        </ul>
+                    </div>
+
+                    <div class="panel radio-panel">
+                        <ul>
+                            <li>
+                                <input type="radio" name="bin" id="hex">
+                                <label for="hex">Hex</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="bin" id="dec" checked="">
+                                <label for="dec">Dec</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="bin" id="oct">
+                                <label for="oct">Oct</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="bin" id="bin">
+                                <label for="bin">Bin</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="button-panel">
+                        <div class="row">
+                            <input type="button" class="flat">
+                            <input type="button" value="Mod">
+                            <input type="button" value="A" class="flat">
+                            <input type="button" value="MC" class="flat">
+                            <input type="button" value="MR" class="flat">
+                            <input type="button" value="MS" class="flat">
+                            <input type="button" value="M+" class="flat">
+                            <input type="button" value="M-" class="flat">
+                        </div>
+                        <div class="row">
+                            <input type="button" value="(">
+                            <input type="button" value=")">
+                            <input type="button" value="B" class="flat">
+                            <input type="button" value="←">
+                            <input type="button" value="CE">
+                            <input type="button" value="C">
+                            <input type="button" value="±">
+                            <input type="button" value="√" class="flat">
+                        </div>
+                        <div class="row">
+                            <input type="button" value="RoL">
+                            <input type="button" value="RoR">
+                            <input type="button" value="C" class="flat">
+                            <input type="button" value="7" class="nums">
+                            <input type="button" value="8" class="nums">
+                            <input type="button" value="9" class="nums">
+                            <input type="button" value="/">
+                            <input type="button" value="%" class="flat">
+                        </div>
+                        <div class="row">
+                            <input type="button" value="Or">
+                            <input type="button" value="Xor">
+                            <input type="button" value="D" class="flat">
+                            <input type="button" value="4" class="nums">
+                            <input type="button" value="5" class="nums">
+                            <input type="button" value="6" class="nums">
+                            <input type="button" value="*">
+                            <input type="button" value="1/x" class="flat">
+                        </div>
+                        <div class="row">
+                            <input type="button" value="Lsh">
+                            <input type="button" value="Rsh">
+                            <input type="button" value="E" class="flat">
+                            <input type="button" value="1" class="nums">
+                            <input type="button" value="2" class="nums">
+                            <input type="button" value="3" class="nums">
+                            <input type="button" value="-">
+                            <input type="button" value="=">
+                        </div>
+                        <div class="row">
+                            <input type="button" value="Not">
+                            <input type="button" value="And">
+                            <input type="button" value="F" class="flat">
+                            <input type="button" value="0" class="nums">
+                            <input type="button" value="." class="flat">
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+
+                    <div class="panel radio-panel">
+                        <ul>
+                            <li>
+                                <input type="radio" name="range" id="qword" checked="">
+                                <label for="qword">Qword</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="range" id="dword">
+                                <label for="dword">Dword</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="range" id="word">
+                                <label for="word">Word</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="range" id="byte">
+                                <label for="byte">Byte</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

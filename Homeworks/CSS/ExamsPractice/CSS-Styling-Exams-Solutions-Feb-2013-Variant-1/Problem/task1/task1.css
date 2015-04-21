@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: black;
+	font-size: 16px;
+	font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+}
+
+body div#wrapper {
+	width: 960px;
+	margin: 10px 20px;
+}
+
+aside {
+	border-radius: 10px;
+	background: -webkit-linear-gradient(#D29BFF, #8977FF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#D29BFF, #8977FF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#D29BFF, #8977FF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#D29BFF, #8977FF); /* Standard syntax (must be last) */
+	width: 215px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid #9D00FF;
+}
+
+ul.sidebar li {
+	position: relative;
+	padding: 5px 15px;
+	font-size: 1.3em;
+	
+}
+
+.sidebar li ul {
+	display: none;
+}
+
+.sidebar li:hover ul {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}

@@ -1,0 +1,129 @@
+html, body, div, h1, label, input, ul, li, span, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: Corbel;
+}
+
+body div#root {
+  width: 350px;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  border-top-left-radius: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding-left: 25px;
+}
+
+body div#root h1 {
+    padding: 15px 45px;
+}
+
+body div#root div.add-employee {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    height: 160px;
+    background: rgb(203,247,190); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(203,247,190) 0%, rgb(229,217,110) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(203,247,190)), color-stop(100%,rgb(229,217,110))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(203,247,190) 0%,rgb(229,217,110) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(203,247,190) 0%,rgb(229,217,110) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(203,247,190) 0%,rgb(229,217,110) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgb(203,247,190) 0%,rgb(229,217,110) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbf7be', endColorstr='#e5d96e',GradientType=0 ); /* IE6-9 */
+}
+
+body div#root div.add-employee label {
+    font-weight: bold;
+}
+
+body div#root div.add-employee input {
+    border: 2px inset;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background: none;
+    font-style: italic;
+    outline: none;
+}
+
+body div#root div.add-employee div.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+body div#root div.add-employee div.dropdown ul {
+    display: none;
+    padding: 5px;
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 130px;
+    background: rgb(229,217,110); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(229,217,110) 0%, rgb(203,247,190) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(229,217,110)), color-stop(100%,rgb(203,247,190))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(229,217,110) 0%,rgb(203,217,190) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(229,217,110) 0%,rgb(203,247,190) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(229,217,110) 0%,rgb(203,247,190) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgb(229,217,110) 0%,rgb(203,247,190) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbf7be', endColorstr='#e5d96e',GradientType=0 ); /* IE6-9 */
+}
+
+body div#root div.add-employee div.dropdown ul li {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+body div#root div.add-employee div.dropdown ul li:last-of-type {
+    border-bottom: none;
+}
+
+body div#root div.add-employee div.dropdown ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+body div#root div.add-employee div.dropdown ul.expanded {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 140px;
+}
+
+body div#root div.add-employee div.dropdown span.chosen {
+    background-image: url(images/down-arrow.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+body div#root div.add-employee div.dropdown span.expanded {
+    background-image: url(images/left-arrow.png);
+    background-repeat: no-repeat;
+}
+
+body div#root div.add-employee button {
+    background: none;
+    width: 250px;
+    height: 30px;
+    border: inset;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+body div#root div.add-employee button:hover {
+    background: rgb(203,247,190); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(203,247,190) 0%, rgb(229,217,110) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(203,247,190)), color-stop(100%,rgb(229,217,110))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(203,247,190) 0%,rgb(229,217,110) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(203,247,190) 0%,rgb(229,217,110) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(203,247,190) 0%,rgb(229,217,110) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgb(203,247,190) 0%,rgb(229,217,110) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbf7be', endColorstr='#e5d96e',GradientType=0 ); /* IE6-9 */
+}

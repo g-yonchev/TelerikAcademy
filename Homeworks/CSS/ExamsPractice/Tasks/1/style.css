@@ -1,0 +1,60 @@
+html, body, div, ul, li, a {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana;
+}
+
+body div#cssmenu {
+	font-size: 14px;
+	margin-top: 20px; 
+	margin-left: 8px;
+	background-color: #CFCFCF;
+	border-bottom: 5px solid #0079B2;
+	width: 946px;
+	height: 40px;
+}
+ul {
+	list-style-type: none;
+	}
+	
+body div#cssmenu > ul {
+
+}
+
+body div#cssmenu > ul > li {
+	display: inline-block;
+	position: relative;
+	border: 1px solid black;
+	margin-left: 15px;
+	width: 108px;
+	height: 39px;
+	text-align: center;
+}
+
+body div#cssmenu > ul > li a {
+		display: block;
+		height: 39px;
+}
+
+body div#cssmenu > ul ul {
+	display: none
+}
+
+body div#cssmenu > ul li:hover ul {
+	display: inline;
+	position: absolute;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+sinio
+#0079B2
+
+tumno sivo
+#949494

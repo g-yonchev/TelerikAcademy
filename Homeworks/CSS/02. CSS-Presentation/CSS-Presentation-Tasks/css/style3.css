@@ -1,0 +1,42 @@
+﻿div {
+            border: 1px solid red;
+            border-radius: 60px;
+            background: black;
+            padding-right: 10px;
+        }
+
+        body > div {
+            padding-right: 130px;
+        }
+
+            body > div > div {
+                padding-right: 110px;
+            }
+
+                body > div > div > div {
+                    padding-right: 85px;
+                }
+
+                    body > div > div > div > div {
+                        padding-right: 70px;
+                    }
+
+                        body > div > div > div > div > div {
+                            padding-right: 50px;
+                        }
+
+                            body > div > div > div > div > div > div {
+                                padding-right: 40px;
+                            }
+
+                                body > div > div > div > div > div > div > div {
+                                    padding-right: 30px;
+                                }
+
+                                    body > div > div > div > div > div > div > div > div {
+                                        padding-right: 20px;
+                                    }
+
+                                        body > div > div > div > div > div > div > div > div > div {
+                                            padding-right: 15px;
+                                        }

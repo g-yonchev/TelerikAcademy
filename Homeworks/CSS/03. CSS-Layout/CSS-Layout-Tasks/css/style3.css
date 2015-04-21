@@ -1,0 +1,80 @@
+body, header, label, form, input, article, h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	width: 665px;
+		height: 300px;
+	background-color: #3a3a3a;
+	margin: 20px;
+}
+
+form {
+	width: 590px;
+	height: 30px;
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	font-weight: bold;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+header {
+	height: 60px;
+	border-radius: 5px;
+}
+
+form input[type="text"], form input[type="email"] {
+	height: 20px;
+	margin-right: 15px;
+	border-radius: 1px;
+	padding-left: 5px;
+}
+
+form input[type="submit"] {
+	background-color: red;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 56px;
+	height: 28px;
+	float: right;
+	color: white;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+article {
+	width: 640px;
+	padding: 10px 10px 15px 10px;
+}
+
+h1 {
+	color: black;
+	font-family: "Times New Roman", serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+p {
+	color: #a5a5a5;
+	font-size: 13px;
+	font-family: Verdana, Helvetica, sans serif;
+	line-height: 20px;
+}
+
+span {
+	color: white;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	}

@@ -1,0 +1,139 @@
+body {
+  font-size: 14px;
+  font-family: Corbel;
+  color: #000;
+}
+body #root {
+  width: 350px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  border-left: 3px solid #000;
+  border-top: 3px solid #000;
+  border-radius: 15px 0 0 0;
+}
+body #root h1 {
+  font-size: 1.9em;
+  padding-left: 45px;
+}
+body div.widget .box {
+  width: 260px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #cbf7be;
+  background: -moz-linear-gradient(top, #cbf7be 15%, #e5d96e 60%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #cbf7be), color-stop(60%, #e5d96e));
+  background: -webkit-linear-gradient(top, #cbf7be 15%, #e5d96e 60%);
+  background: -o-linear-gradient(top, #cbf7be 15%, #e5d96e 60%);
+  background: -ms-linear-gradient(top, #cbf7be 15%, #e5d96e 60%);
+  background: linear-gradient(top bottom, #cbf7be 15%, #e5d96e 60%);
+}
+body div.widget .add-employee {
+  margin: 0;
+  padding: 15px;
+  text-align: right;
+}
+body div.widget .add-employee > * {
+  padding: 5px;
+}
+body div.widget .add-employee label {
+  font-weight: bold;
+}
+body div.widget .add-employee label:first-of-type {
+  border: none;
+}
+body div.widget .add-employee input,
+body div.widget .add-employee button {
+  border: 3px inset #cbf7be;
+  border-radius: 5px;
+  margin: 0;
+  padding: 5px 15px;
+}
+body div.widget .add-employee input {
+  margin-bottom: 5px;
+  background: rgba(0,0,0,0);
+  width: 130px;
+  font-style: italic;
+}
+body div.widget .add-employee input::-webkit-input-placeholder {
+  color: #000;
+}
+body div.widget .add-employee input:-moz-placeholder {
+  color: #000;
+}
+body div.widget .add-employee input::-moz-placeholder {
+  color: #000;
+}
+body div.widget .add-employee input:-ms-input-placeholder {
+  color: #000;
+}
+body div.widget .add-employee button {
+  margin-top: 5px;
+  display: block;
+  font-size: 1.1em;
+  width: 100%;
+  background: rgba(0,0,0,0);
+}
+body div.widget .add-employee button:hover {
+  background: #cbf7be;
+  background: -moz-linear-gradient(top, #cbf7be 10%, #e5d96e 70%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #cbf7be), color-stop(70%, #e5d96e));
+  background: -webkit-linear-gradient(top, #cbf7be 10%, #e5d96e 70%);
+  background: -o-linear-gradient(top, #cbf7be 10%, #e5d96e 70%);
+  background: -ms-linear-gradient(top, #cbf7be 10%, #e5d96e 70%);
+  background: linear-gradient(top bottom, #cbf7be 10%, #e5d96e 70%);
+  cursor: pointer;
+  cursor: hand;
+}
+body div.widget .add-employee .dropdown {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+body div.widget .add-employee .dropdown .chosen {
+  padding-left: 20px;
+  background-image: url("images/down-arrow.png");
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+body div.widget .add-employee .dropdown .chosen.expanded {
+  background-image: url("images/left-arrow.png");
+}
+body div.widget .add-employee .dropdown ul {
+  background: #e5d96e;
+  background: -moz-linear-gradient(top, #e5d96e 10%, #cbf7be 70%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #e5d96e), color-stop(70%, #cbf7be));
+  background: -webkit-linear-gradient(top, #e5d96e 10%, #cbf7be 70%);
+  background: -o-linear-gradient(top, #e5d96e 10%, #cbf7be 70%);
+  background: -ms-linear-gradient(top, #e5d96e 10%, #cbf7be 70%);
+  background: linear-gradient(top bottom, #e5d96e 10%, #cbf7be 70%);
+  z-index: 1;
+  margin: 0;
+  padding: 0 5px;
+  display: block;
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 130px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+body div.widget .add-employee .dropdown ul.expanded {
+  display: block;
+}
+body div.widget .add-employee .dropdown ul li {
+  width: 150px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+body div.widget .add-employee .dropdown ul li:last-of-type {
+  border: none;
+}
+body div.widget .add-employee .dropdown ul li:hover {
+  cursor: pointer;
+  cursor: hand;
+  background: rgba(0,0,0,0.1);
+}

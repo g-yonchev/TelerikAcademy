@@ -1,0 +1,57 @@
+﻿body, div, h1, img, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+}
+
+body #wrapper {
+	width: 960px;
+}
+
+body #wrapper div {
+	margin-top: 25px;
+	margin-left: 25px;
+	padding: 15px 35px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background: -webkit-linear-gradient(#DE28FF, #F9DBFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#DE28FF, #F9DBFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#DE28FF, #F9DBFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#DE28FF, #F9DBFF); /* Standard syntax (must be last) */
+	position: relative;
+	height: 178px;
+}
+
+body #wrapper div h1 {
+	font-size: 1.8em;
+}
+
+body #wrapper div .postedby {
+	display: inline-block;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 5px 15px;
+	padding: 5px 15px;
+}
+
+body #wrapper div .info {
+	text-align: justify;
+	margin-top: 15px;
+}
+
+body #wrapper div img {
+	position: absolute;
+	top: 40%;
+}
+
+body #wrapper div img.left-arrow {
+	left: 0;
+}
+
+body #wrapper div img.right-arrow {
+	right: 0;
+}

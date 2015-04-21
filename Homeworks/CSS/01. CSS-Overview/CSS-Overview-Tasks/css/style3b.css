@@ -1,0 +1,44 @@
+﻿/* CSS Document */
+
+:root {
+   	background-color: darkgray;
+}
+
+h1[class*="header"] {
+    color: beige;
+}
+
+.headerfirst, .navigation, .foot {
+    text-align:center;
+}
+	
+a {
+    text-decoration: none;
+	color: inherit;
+}
+	
+li {
+    list-style-type:none;
+}
+	
+.navigation ul li a {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.navigation>a:hover {
+    text-decoration: underline;
+}
+
+a.current {
+    background-color: lightgray;
+}
+
+.posted {
+    font-size:80%;
+}

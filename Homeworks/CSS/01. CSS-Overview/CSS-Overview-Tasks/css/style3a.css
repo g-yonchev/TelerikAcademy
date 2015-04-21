@@ -1,0 +1,48 @@
+/* CSS Document */
+
+body {
+	background-color: darkgray;
+}
+
+header {
+    color: beige;
+}
+
+body section article footer p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.current {
+    background-color: lightgray;
+}
+
+body section article footer p {
+    font-size:80%;
+}
+
+li {
+    list-style-type:none;
+}
+
+body>header, body>footer {
+    text-align: center;
+}
+
+nav ul li a {
+	background: none;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration:underline;
+} 
+
+.text:first-line {
+	border: 1px solid black;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space:nowrap;
+}

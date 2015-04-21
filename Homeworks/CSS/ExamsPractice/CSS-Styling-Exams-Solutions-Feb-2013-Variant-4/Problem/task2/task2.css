@@ -1,0 +1,41 @@
+﻿body,
+html,
+div,
+ul,
+li,
+img,
+a,
+span {
+    margin: 0;
+    padding: 0;
+}
+body #wrapper {
+    width: 960px;
+    font-size: 16px;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+}
+
+body #wrapper > div {
+
+    margin-top: 15px;
+    margin-left: 15px;
+    background: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+    body #wrapper > div div.playlist ul li {
+
+        text-align: center;
+        margin-left: 560px;
+  width: 220px;
+    }
+
+body #wrapper > div div {
+    border-radius: 5px;
+}
+
+body #wrapper > div div.holder {
+
+    width: 550px;
+    margin-right: 15px;
+ }

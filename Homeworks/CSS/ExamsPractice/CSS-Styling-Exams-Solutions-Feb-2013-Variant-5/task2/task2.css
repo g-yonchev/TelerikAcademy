@@ -1,0 +1,125 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000000;
+    font-size: 16px;
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+}
+
+body div#wrapper {
+    width: 960px;
+    margin-left: 50px;
+}
+
+body div#wrapper a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+body div#wrapper a:hover {
+    color: gray;
+}
+
+body div#wrapper a.current {
+    font-weight: bold;
+}
+
+body div#wrapper a.current ~ form.invisible {
+    display: none;
+}
+
+body div#wrapper form {
+    text-align: right;
+    width: 450px;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #595959 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#595959)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#595959 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#595959 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#595959 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#595959 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#595959',GradientType=0 ); /* IE6-9 */
+
+}
+
+body div#wrapper form fieldset {
+    border: 5px solid black;
+    padding-right: 75px;
+    border-radius: 5px;
+   display: block;
+  margin: 0 auto;
+    
+}
+
+body div#wrapper form fieldset legend {
+    padding: 0 10px;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+body div#wrapper form fieldset input {
+    color: white;
+    padding-left: 15px;
+    width: 165px;
+    height: 37px;
+    border: none;
+    margin-bottom: 6px;
+    border-radius: 15px;
+    background: #020202; /* Old browsers */
+    background: -moz-linear-gradient(top,  #020202 0%, #cacaca 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#020202), color-stop(100%,#cacaca)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #020202 0%,#cacaca 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #020202 0%,#cacaca 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #020202 0%,#cacaca 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #020202 0%,#cacaca 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020202', endColorstr='#cacaca',GradientType=0 ); /* IE6-9 */
+}
+
+    body div#wrapper form fieldset input:first-of-type {
+        margin-top: 13px;
+    }
+    body div#wrapper form fieldset input:focus {
+        outline: none;
+    }
+
+label {
+    font-weight: bold;
+}
+
+button {
+    margin: 5px 0 10px 0;;
+    padding: 0 10px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 1.2em;
+    background: #030303; /* Old browsers */
+    background: -moz-linear-gradient(top,  #030303 0%, #fcfcfc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#030303), color-stop(100%,#fcfcfc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #030303 0%,#fcfcfc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #030303 0%,#fcfcfc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #030303 0%,#fcfcfc 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #030303 0%,#fcfcfc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030303', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-9 */
+}
+
+button:hover {
+    cursor: pointer;
+    background: #020202; /* Old browsers */
+    background: -moz-linear-gradient(top,  #020202 0%, #cacaca 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#020202), color-stop(100%,#cacaca)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #020202 0%,#cacaca 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #020202 0%,#cacaca 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #020202 0%,#cacaca 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #020202 0%,#cacaca 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020202', endColorstr='#cacaca',GradientType=0 ); /* IE6-9 */
+}
+
+ body div#wrapper form fieldset button:focus {
+        outline: none;
+    }

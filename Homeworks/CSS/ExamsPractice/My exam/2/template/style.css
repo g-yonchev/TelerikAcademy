@@ -1,0 +1,80 @@
+html, body, div, ul, li, h3, img, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+}
+
+body div#wrapper {
+    width: 960px;
+}
+
+body div#wrapper ul.menu {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+body div#wrapper ul.menu li {
+    position: relative;
+    cursor: pointer;
+    border: 20px solid #808080;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    height: 170px;
+    padding: 5px;
+    background: rgb(115,115,115); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(115,115,115) 0%, rgb(255,255,255) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(115,115,115)), color-stop(100%,rgb(255,255,255))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(115,115,115) 0%,rgb(255,255,255) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(115,115,115) 0%,rgb(255,255,255) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(115,115,115) 0%,rgb(255,255,255) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgb(115,115,115) 0%,rgb(255,255,255) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#737373', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+body div#wrapper ul.menu li h3 {
+    color: white;
+}
+
+body div#wrapper ul.menu li div.image-container {
+    text-align: center;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+
+body div#wrapper ul.menu li div.image-container img {
+    width: 120px;
+    border-radius: 20px;
+}
+
+body div#wrapper ul.menu li p.click-here {
+    display: none;
+}
+
+body div#wrapper ul.menu li:hover p.click-here {
+    display: block;
+}
+
+body div#wrapper ul.menu li:hover p.subtitle {
+    display: none;
+}
+
+body div#wrapper ul.menu li:hover {
+    border: 20px solid #454545;
+    background: #808080;
+}
+
+body div#wrapper ul.menu li:hover h3 {
+    text-decoration: underline;
+}
+
+body div#wrapper ul.menu li:hover div.image-container img{
+    width: 135px;
+}

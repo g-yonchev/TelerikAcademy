@@ -1,0 +1,81 @@
+html, body, div, header, h1, h2, nav, ul, li, article, p, aside, form, input {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px
+}
+
+div#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	margin: 0 !important;
+}
+
+body #wrapper header {
+    margin-left: 5px;
+    background-image: url(images/header-bg.png);
+    background-repeat: repeat;
+    width: 920px;
+    border-bottom: 5px solid #39C518;
+    padding: 20px;
+}
+
+body #wrapper header div#title h1 {
+    font-size: 34px;
+    color: #EEEEEE;
+}
+body #wrapper header div#title h2 {
+    color: #C0C0C0;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+body #wrapper header div#title {
+    float: left;
+}
+
+body #wrapper header nav#nav {
+    float: right;
+    color: #CC6600;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+body #wrapper header nav#nav ul li {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+body #wrapper header nav#nav ul li {
+    display: inline-block;
+}
+
+.clear {
+	clear: both;
+}
+
+body #wrapper div#content {
+    width: 760px;
+    float: left;
+}
+
+body #wrapper div#content h1 {
+    font-size: 30px;
+    color: #59770E;
+    margin: 20px 0;
+}
+
+body #wrapper div#content p {
+    margin: 10px 0;
+}
+
+body #wrapper #aside {
+    margin: 20px 0;
+    color: #59770E;
+    font-weight: bold;
+    text-transform: uppercase;
+}
