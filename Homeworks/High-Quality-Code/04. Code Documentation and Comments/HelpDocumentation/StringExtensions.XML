@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:Telerik.ILS.Common.StringExtensions">
+            <summary>
+            Static class providing various extension methods for the <see cref="T:System.String"/> class.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+            String extention method which converts the input string to hash array.
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns the hexadecimal string.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            String extention method which ckecks whether the input string contains a true-like value.
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns whether the string contains true-like value.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)">
+            <summary>
+            String extention method which tries to convert the input string into Int16 representation.
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns variable of type Int16 if the string is a number, null - otherwise.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)">
+            <summary>
+            String extention method which tries to convert the input string into Int32 representation.
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns variable of type Int32 if the string is a number, null - otherwise.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)">
+            <summary>
+            String extention method which tries to convert the input string into Int64 representation.
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns variable of type Int64 if the string is a number, null - otherwise.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)">
+            <summary>
+            String extention method which tries to convert the input string into DateTime representation.
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns variable of type DateTime if the string can be parsed, null - otherwise.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            String extention method which capitalizes the first letter of the input string. 
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns the input string with capital first letter.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            String extention method which returns the substring between two given strings. 
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <param name="startString">Start of the substring.</param>
+            <param name="endString">End of the substring.</param>
+            <param name="startFrom">Index to start search from (optional).</param>
+            <returns>Returns the substring between startString and endString. If the substrings are not cointained in the input string - returns an empty string.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            String extention method which converts the cyrillic letters from the input string into their latin representation. 
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns a converted cyrillic text to latin one.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            String extention method which converts the latin letters from the input string into their cyrillic representation. 
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns a converted latin text to cyrillic one.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            String extention method which replaces invalid symbols in the input string with an empty string and converts a valid filename.
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns a new valid username.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            String extention method which replaces invalid symbols in the input string with an empty string and converts a valid filename.
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns a new valid filename.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            String extention method which returns first N characters of the input string.
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <param name="charsCount">The count of the characters to be returned.</param>
+            <returns>Returns the beginning of the input string as a substring with lenght equals to charsCount. If the charsCount is greater than the lenght of the input string, returns whole string.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            String extention method which returns the extention of a given filename represented as a string.
+            </summary>
+            <param name="input">The filename represented as a string on which the method is invoked.</param>
+            <returns>Returns the file extention of the filename. If the input string is null or whitespace, or the filename has no extension, returns an empty string.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)">
+            <summary>
+            String extention method which returns the content type of a file determined by its extension.
+            </summary>
+            <param name="input">The extension of a filename represented as a string on which the method is invoked.</param>
+            <returns>Returns the content type if known, "application/octet-stream" - otherwise.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            String extention method which converts the input string to a byte array.
+            </summary>
+            <param name="input">The string on which the method is invoked.</param>
+            <returns>Returns a byte array of the input string</returns>
+        </member>
+    </members>
+</doc>
