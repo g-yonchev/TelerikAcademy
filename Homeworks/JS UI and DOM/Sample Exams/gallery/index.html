@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 2 - jQuery</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="root" style="margin-top:50px; margin-left:50px;">
+</div>
+<script id="pictures-template" type='text/x-handlebars-template'>
+    <div id="gallery">
+        <div class="gallery-list">
+            {{#each pictures}}
+            <div class="image-container">
+                <img src="{{url}}" data-info="{{data}}" />
+            </div>
+            {{/each}}
+        </div>
+        <div class="selected">
+            <div class="previous-image">
+                <img src="#" id="previous-image" />
+            </div>
+            <div class="current-image">
+                <img src="#" id="current-image" />
+            </div>
+            <div class="next-image">
+                <img src="#" id="next-image" />
+            </div>
+        </div>
+    </div>
+</script>
+    <script src="jquery.min.js"></script>
+	<script src="handlebars.min.js"></script>
+    <script src="script.js"></script>
+    <script src="task-2.js"></script>
+	<script>
+            solve()();
+            $(function () {
+                $('#gallery').gallery(3);
+            });
+	</script>
+</body>
+</html>
