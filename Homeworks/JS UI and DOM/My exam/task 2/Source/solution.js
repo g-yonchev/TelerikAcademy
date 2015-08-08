@@ -55,9 +55,6 @@
             $content.removeClass('datepicker-content-visible');
         });
 
-
-
-
         function getFirstDayName(month, year) {
             var d = new Date(year, month, 1);
             var name = d.getDayName();
@@ -70,7 +67,6 @@
         }
 
         function getArray(startDay, countDays, prevMonthDays) {
-            startDay;
             var rest = 42 - countDays;
             rest = rest - startDay;
 
@@ -163,24 +159,20 @@
             for (i = 0; i < 6; i++) {
                 var $tr = $('<tr/>').appendTo($tbody);
                 for (var j = 0; j < 7; j++) {
-                    if (currentArr[counter] === 1) {
+                    if (arr[counter] === 1) {
                         flag = !flag;
                     }
 
                     if (!flag) {
                         $('<td/>').appendTo($tr).addClass('another-month').html(arr[counter]);
                     } else {
-                        $('<td/>').appendTo($tr).addClass('current-month').html(arr[counter])
+                        $('<td/>').appendTo($tr).addClass('current-month').html(arr[counter]);
                     }
                     counter++;
                 }
             }
 
         }
-
-
-
-
 
         var currFirtsDayName = getFirstDayName(currentMonthNumber, currentYear);
         var currAllDays = getCountDays(currentMonthNumber, currentYear);
@@ -207,7 +199,7 @@
                 if (!flag) {
                     $('<td/>').appendTo($tr).addClass('another-month').html(currentArr[counter]);
                 } else {
-                    $('<td/>').appendTo($tr).addClass('current-month').html(currentArr[counter])
+                    $('<td/>').appendTo($tr).addClass('current-month').html(currentArr[counter]);
                 }
                 counter++;
             }
@@ -219,11 +211,11 @@
         });
 
         $('html').on('click', function(ev) {
-            var $target = $(ev.target)
+            var $target = $(ev.target);
             if (!$target.parents().hasClass('datepicker-wrapper') && !$target.hasClass('datepicker-wrapper')) {
                 $content.removeClass('datepicker-content-visible');
             }
-        })
+        });
 
         return $this;
     };
