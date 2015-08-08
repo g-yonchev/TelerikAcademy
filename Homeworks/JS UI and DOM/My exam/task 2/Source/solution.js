@@ -1,5 +1,7 @@
 ﻿function solve() {
     $.fn.datepicker = function () {
+        var date = new Date();
+
         var MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         var WEEK_DAY_NAMES = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
 
@@ -11,43 +13,80 @@
             return WEEK_DAY_NAMES[this.getDay()];
         };
 
-		// you are welcome :)
-		var date = new Date();
+        var currentDay = date.getDate();
+        var currentMonthNumber = date.getMonth();
+        var currentMonthName = date.getMonthName();
+        var currentYear = date.getFullYear();
 
-		//console.log(date.getDayName());
-		//console.log(date.getMonthName());
+        var $this = $(this).wrap($('<div/>').addClass('datepicker-wrapper'));
+        $this.addClass('datepicker');
+        var $wrapper = $('.datepicker-wrapper');
 
+        var $content = $('<div/>').addClass('datepicker-content').appendTo($wrapper);
+        $content.hide();
 
+        $('.datepicker').on('click', function() {
+            $content.show();
+        });
 
-        var $container = this.parent().addClass('datepicker-wrapper');
-        this.addClass('datepicker');
+        var $controls = $('<div/>').addClass('controls').appendTo($content);
+        var $table = $('<table/>').addClass('calendar').appendTo($content);
+        var $currentDate = $('<div/>').addClass('current-date').appendTo($content);
 
-        console.log($container)
+        var $leftControl = $('<button/>').addClass('btn').appendTo($controls);
+        var $currentMonth = $('<span/>').addClass('current-month').html(currentMonthName + ' ' + currentYear).appendTo($controls);
+        var $rightControl = $('<button/>').addClass('btn').appendTo($controls);
 
-        var $calendar = $('<div/>').addClass('datepicker-content').appendTo($container).hide();
+        var $currentDateLink = $('<a/>').addClass('current-date-link').appendTo($currentDate);
 
-        this.on('click', function () {
-            $calendar.show();
-        })
+        $currentDateLink.html(currentDay + ' ' + currentMonthName + ' ' + currentYear).css({cursor: 'pointer'});
 
+        $currentDateLink.on('click', function() {
+            $this.val(date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear());
+            $content.hide();
+        });
 
-        var $table = $('<table/>').addClass('calendar').appendTo($calendar);
-
-        for (var i = 0; i < 7; i++) {
-            var $row = $('<tr/>');
-
-            for (var j = 0; j < 7; j++) {
-                var $col = $('<td/>');
-
-                if (i === 0) {
-
-                }
-                $row.append($col);
+        $leftControl.on('click', function() {
+            currentMonthNumber--;
+            if (currentMonthNumber === -1) {
+                currentYear--;
+                currentMonthNumber = 11;
             }
-            $table.append($row)
+            $currentMonth.html(MONTH_NAMES[currentMonthNumber] + ' ' + currentYear);
+        });
+
+        $rightControl.on('click', function() {
+            currentMonthNumber++;
+            if (currentMonthNumber === 12) {
+                currentYear++;
+                currentMonthNumber = 0;
+            }
+            $currentMonth.html(MONTH_NAMES[currentMonthNumber] + ' ' + currentYear);
+        });
+
+        var $thead = $('<thead/>').appendTo($table);
+        var $tbody = $('<tbody/>').appendTo($table);
+        var $rowHead = $('<tr/>').appendTo($thead);
+
+        for (var k = 0; k < 7; k += 1) {
+            $('<th/>').appendTo($rowHead).html(WEEK_DAY_NAMES[k]);
         }
 
-        return this;
 
+        var counter = 0;
+        for (var i = 0; i < 6; i+= 1) {
+            var $tr = $('<tr/>').appendTo($tbody);
+            for (var j = 0; j < 7; j++) {
+                $('<td/>').appendTo($tr).addClass('current-month').html(j);
+            }
+        }
+
+
+        $('.calendar').on('click', '.current-month', function () {
+            $this.val(date.getDate() + '/' + (currentMonthNumber+1) + '/' + currentYear);
+            $content.hide();
+        });
+
+        return $this;
     };
 }
