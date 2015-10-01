@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+  <album>
+    <name>Kill 'Em All</name>
+    <artist>Metallica</artist>
+    <year>1983</year>
+    <producer>Metallica</producer>
+    <price>33</price>
+    <songs>
+      <song>
+        <title>Motorbreath</title>
+        <duration>3.44</duration>
+      </song>
+      <song>
+        <title>No Remorse</title>
+        <duration>5.02</duration>
+      </song>
+      <song>
+        <title>Metal Militia</title>
+        <duration>2.33</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Death Magnetic</name>
+    <artist>Metallica</artist>
+    <year>2008</year>
+    <producer>Some Producer</producer>
+    <price>2.5</price>
+    <songs>
+      <song>
+        <title>Cyanide</title>
+        <duration>3.34</duration>
+      </song>
+      <song>
+        <title>No Remorse</title>
+        <duration>2.02</duration>
+      </song>
+      <song>
+        <title>The Judas Kiss</title>
+        <duration>4.23</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Believe</name>
+    <artist>Justin Bieber</artist>
+    <year>2012</year>
+    <producer>MdL</producer>
+    <price>111.4</price>
+    <songs>
+      <song>
+        <title>Catching Feelings</title>
+        <duration>2.33</duration>
+      </song>
+      <song>
+        <title>Take You</title>
+        <duration>1.55</duration>
+      </song>
+      <song>
+        <title>Fall</title>
+        <duration>2.00</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

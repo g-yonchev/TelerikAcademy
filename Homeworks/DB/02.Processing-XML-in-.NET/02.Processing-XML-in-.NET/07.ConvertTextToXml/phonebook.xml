@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<phonebook>
+  <person>
+    <name>Pesho Peshov</name>
+    <city>Sofia</city>
+    <phone>0882102933</phone>
+  </person>
+  <person>
+    <name>Gosho Georgiev</name>
+    <city>Varna</city>
+    <phone>029962121</phone>
+  </person>
+  <person>
+    <name>Penka Todorova</name>
+    <city>Sofia</city>
+    <phone>0872332211</phone>
+  </person>
+  <person>
+    <name>Georgi Dimitrov</name>
+    <city>Pernik</city>
+    <phone>0889275727</phone>
+  </person>
+</phonebook>
