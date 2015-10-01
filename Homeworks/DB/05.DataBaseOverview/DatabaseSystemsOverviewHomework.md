@@ -10,10 +10,10 @@ A database model is a type of data model that determines the logical structure o
 * Network model (graph)
 * Relational model (table)
 * Object-oriented model
-* Entity–relationship model
-* Enhanced entity–relationship model
+* Entityâ€“relationship model
+* Enhanced entityâ€“relationship model
 * Document model
-* Entity–attribute–value model
+* Entityâ€“attributeâ€“value model
 * Star schema
 
 ##### Physical data models:
@@ -77,7 +77,7 @@ _Examples:_
 
 ![Relationships](http://fms-itskills.ncl.ac.uk/db/ER.png)
 
-##### Self relationship (ïðèìêà)
+##### Self relationship (Ð¿Ñ€Ð¸Ð¼ÐºÐ°)
 This is used when a table needs to have a relationship with itself. The primary / foreign key relationships can point to one and the same table.
 
 Example: employees in a company have a manager, who is also an employee.
@@ -92,17 +92,123 @@ The relational schema describes the structure of the database. Doesn't contain d
 Database normalization is the process of organizing the columns (attributes) and tables (relations) of a relational database to minimize data redundancy.
 Normalization involves decomposing a table into less redundant (and smaller) tables without losing information; defining foreign keys in the old table referencing the primary keys of the new ones.
 
-Advantages  | Disadvantages
-----------------------------|----------------------------
+Advantages                                       | Disadvantages
+-------------------------------------------------|-------------------------------------------------
 Smaller database: by eliminating duplicate data. | More tables to join: by spreading data into more tables.
-Better performance. | FTables contain codes instead of real data.
+Better performance.                              | Tables contain codes instead of real data.
 
 ### 7.  What are database integrity constraints and when are they used?
+
+Integrity constraints are used to ensure accuracy and consistency of data in a relational database. Data integrity is handled in a relational database through the concept of referential integrity. Many types of integrity constraints play a role in referential integrity (RI).
+
+##### Primary Key Constraints
+Primary key is the term used to identify one or more columns in a table that make a row of data unique. Although the primary key typically consists of one column in a table, more than one column can comprise the primary key.
+
+_Ensures that the primary key of a table has unique value for each table row._
+
+##### Unique Constraints
+A unique column constraint in a table is similar to a primary key in that the value in that column for every row of data in the table must have a unique value. Although a primary key constraint is placed on one column, you can place a unique constraint on another column even though it is not actually for use as the primary key.
+
+_Ensures that all values in a certain column (or a group of columns) are unique._
+
+##### Foreign Key Constraints
+A foreign key is a column in a child table that references a primary key in the parent table. A foreign key constraint is the main mechanism used to enforce referential integrity between tables in a relational database. A column defined as a foreign key is used to reference a column defined as a primary key in another table. 
+
+_Ensures that the value in given column is a key from another table._
+
+##### NOT NULL Constraints
+The NOT NULL constraint enforces a column to NOT accept NULL values.
+The NOT NULL constraint enforces a field to always contain a value. This means that you cannot insert a new record, or update a record without adding a value to this field.
+
+##### Check Constraints
+Check (CHK) constraints can be utilized to check the validity of data entered into particular table columns. Check constraints are used to provide back-end database edits, although edits are commonly found in the front-end application as well. General edits restrict values that can be entered into columns or objects, whether within the database itself or on a front-end application.
+
+_Ensures that values in a certain column meet some predefined condition._
+
 ### 8.  Point out the pros and cons of using indexes in a database.
+
+A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure. Indexes are used to quickly locate data without having to search every row in a database table every time a database table is accessed. Indexes can be created using one or more columns of a database table.
+
+**Advantages**: use an index for quick access to a database table specific information.
+
+**Disadvantages**: too index will affect the speed of update and insert, because it requires the same update each index file.
+
 ### 9.  What's the main purpose of the SQL language?
+
+SQL (Structured Query Language) is standardized declarative language for manipulation of relational databases.
+SQL-99 is currently in use in most databases
+SQL language supports:
+* Creating, altering, deleting tables and other objects in the database
+* Searching, retrieving, inserting, modifying and deleting table data (rows)
+
+Purpose of **SQL** is to provide a **Structured** way by which one can **Query** information in database using a standard **Language**.
+
 ### 10.  What are transactions used for?
-  * Give an example.
+
+Transactions are a sequence of database operations which are executed as a single unit:
+* Either all of them execute successfully
+* Or none of them is executed at all
+
+Transactions guarantee the consistency and the integrity of the database.
+
+Transactions have four key properties that are abbreviated ACID (Atomic Consistent Isolated Durability).
+
+_Example:_
+A bank transfer from one account into another (withdrawal + deposit). If either the withdrawal or the deposit fails the entire operation should be cancelled
 
 ### 11.  What is a NoSQL database?
+
+A NoSQL (originally referring to "non SQL" or "non relational") database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.
+
+A non-relational database is a database that does not incorporate the table/key model that relational database management systems (RDBMS) promote. These kinds of databases require data manipulation techniques and processes designed to provide solutions to big data problems that big companies face. The most popular emerging non-relational database is called NoSQL (Not Only SQL).
+
+NoSQL databases use document-based model (non-relational).
+
 ### 12.  Explain the classical non-relational data models.
+
+* Document model (e.g. MongoDB, CouchDB) - Set of documents, e.g. JSON strings
+
+* Key-value model (e.g. Redis) - Set of key-value pairs
+
+* Hierarchical key-value - Hierarchy of key-value pairs
+
+* Wide-column model (e.g. Cassandra) - Key-value model with schema
+
+* Object model (e.g. Cache) - Set of OOP-style objects
+
 ### 13.  Give few examples of NoSQL databases and their pros and cons.
+
+##### Redis
+Ultra-fast in-memory data structures server
+
+Advantages                                       | Disadvantages
+-------------------------------------------------|-------------------------------------------------
+Lightening fast. | Memory only.
+Replication possible. | You can have slaves, but it's not distributed yet. Although they intend to add it in future.
+Cool datastructures available within realm of key-value. | 
+
+##### MongoDB
+Mature and powerful JSON-document database
+
+Advantages                                       | Disadvantages
+-------------------------------------------------|-------------------------------------------------
+Enables horizontal scalability by using a technique called sharding. | Very unreliable. No single server durability.
+Provides ACID properties at the document level as in the case of relational databases. | Indexes take up a lot of RAM. They are B-tree indexes and if you have many, you can run out of system resources really fast.
+
+
+##### CouchDB
+JSON-based document database with REST API
+
+Advantages                                       | Disadvantages
+-------------------------------------------------|-------------------------------------------------
+Very persistent, no power failure, system crash will do anything to your data. | Couch maintains a different document for every update you make.
+Everything is HTTP. You can serve a CouchApp from database itself using views. | 
+Replication is easy, and can be uni or bi-directional. | 
+
+##### Cassandra
+Distributed wide-column database
+
+Some of the strong points of Cassandra are:
+* Highly scalable and highly available with no single point of failure.
+* Very high write throughput and good read throughput. 
+* Flexible schemal. 
