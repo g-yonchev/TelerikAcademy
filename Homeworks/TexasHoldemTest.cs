@@ -46,6 +46,8 @@ namespace TestingPoker
 
 	static class HandStrengthValuation
 	{
+		private const int MaxCardValue = 14;
+
 		private static readonly int[,] StartingHandRecommendationsSuited =
 		{
 			{ 3, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1 }, // A
@@ -85,12 +87,12 @@ namespace TestingPoker
 		{
 			var valueTest = firstCard.Suit == secondCard.Suit
 							? (firstCard.Type > secondCard.Type
-								   ? StartingHandRecommendationsSuited[12 - ((int)firstCard.Type - 2), 12 - ((int)secondCard.Type - 2)]
-								   : StartingHandRecommendationsSuited[12 - ((int)secondCard.Type - 2), 12 - ((int)firstCard.Type - 2)])
+								   ? StartingHandRecommendationsSuited[MaxCardValue - (int)firstCard.Type, MaxCardValue - (int)secondCard.Type]
+								   : StartingHandRecommendationsSuited[MaxCardValue - (int)secondCard.Type, MaxCardValue - (int)firstCard.Type])
 							: (firstCard.Type > secondCard.Type
-								   ? StartingHandRecommendationsUnsuited[12 - ((int)firstCard.Type - 2), 12 - ((int)secondCard.Type - 2)]
-								   : StartingHandRecommendationsUnsuited[12 - ((int)secondCard.Type - 2), 12 - ((int)firstCard.Type - 2)]);
-
+								   ? StartingHandRecommendationsUnsuited[MaxCardValue - (int)firstCard.Type, MaxCardValue - (int)secondCard.Type]
+								   : StartingHandRecommendationsUnsuited[MaxCardValue - (int)secondCard.Type, MaxCardValue - (int)firstCard.Type]);
+								   
 			var valueOriginal = firstCard.Suit == secondCard.Suit
 							? (firstCard.Type < secondCard.Type
 								   ? StartingHandRecommendationsSuited[(int)firstCard.Type - 2, (int)secondCard.Type - 2]
